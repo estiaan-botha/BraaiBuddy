@@ -1,0 +1,292 @@
+
+(EDIF
+  (rename &MCP9600_E_MX "MCP9600_E_MX")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 02 22 19 11 45)
+      (dataOrigin "717397/1599314/2.50/21/4/Integrated Circuit")
+      (program "SamacSys ECAD Model MCP9600_E_MX"
+        (version "1.1"))))
+  (library
+  (rename &MCP9600_E_MX "MCP9600_E_MX")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &MCP9600_E_MX "MCP9600_E_MX")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "MCP9600_E_MX"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "QFN65P500X500X100-21N-D"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "579-MCP9600-E/MX"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9600-E-MX?qs=ZEMkBHnybREkP7PCRsOOMQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Microchip"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "MCP9600-E/MX"))
+          (property (rename &Description "Description") (string "Board Mount Temperature Sensors Thermocouple to I2C converter"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "MCP9600_E_MX"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &VINP "VINP")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &VINM "VINM")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_3 "GND_3")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_4 "GND_4")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_5 "GND_5")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &VDD "VDD")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_6 "GND_6")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_7 "GND_7")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &ALERT1 "ALERT1")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &ALERT2 "ALERT2")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_8 "GND_8")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &ALERT3 "ALERT3")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &ALERT4 "ALERT4")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &ADDR "ADDR")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_9 "GND_9")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_10 "GND_10")
+            (designator "18")
+            (property (rename ORDER "Order") (string "17") (owner "OrCAD"))
+          )
+          (port
+            (rename &SCL "SCL")
+            (designator "19")
+            (property (rename ORDER "Order") (string "18") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDA "SDA")
+            (designator "20")
+            (property (rename ORDER "Order") (string "19") (owner "OrCAD"))
+          )
+          (port
+            (rename &EP "EP")
+            (designator "21")
+            (property (rename ORDER "Order") (string "20") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &VINP (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -700) (pt 0 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -700))))
+            )
+            (portImplementation
+              (name &VINM (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -800) (pt 0 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -800))))
+            )
+            (portImplementation
+              (name &GND_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -900) (pt 0 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -900))))
+            )
+            (portImplementation
+              (name &GND_4 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -1600) (pt 200 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -1600))))
+            )
+            (portImplementation
+              (name &GND_5 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1600) (pt 300 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1600))))
+            )
+            (portImplementation
+              (name &VDD (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1600) (pt 400 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1600))))
+            )
+            (portImplementation
+              (name &GND_6 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1600) (pt 500 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1600))))
+            )
+            (portImplementation
+              (name &GND_7 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -1600) (pt 600 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -1600))))
+            )
+            (portImplementation
+              (name &ALERT4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -500) (pt 1100 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -500))))
+            )
+            (portImplementation
+              (name &ALERT3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -600) (pt 1100 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -600))))
+            )
+            (portImplementation
+              (name &GND_8 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -700) (pt 1100 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -700))))
+            )
+            (portImplementation
+              (name &ALERT2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -800) (pt 1100 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -800))))
+            )
+            (portImplementation
+              (name &ALERT1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 900 -900) (pt 1100 -900))))
+              (connectLocation (figure GRAPHIC (dot (pt 1100 -900))))
+            )
+            (portImplementation
+              (name &EP (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &SDA (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &SCL (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &GND_10 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &GND_9 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &ADDR (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 900 0)
+                  (pt 900 -1400)
+                  (pt 0 -1400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 950 30))))
+          )
+        )
+      )
+    )
+  )
+)

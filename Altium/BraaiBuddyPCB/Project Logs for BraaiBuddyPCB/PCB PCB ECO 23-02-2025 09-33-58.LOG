@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=IO7/SCL Pin=R20-2
+Removed Pin From Net: NetName=IO7/SCL Pin=TP1-TP
+Removed Pin From Net: NetName=IO7/SCL Pin=U1-16
+Added Component: Designator=BZ(XDCR_PS1240P02CT3)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PS1240P02CT3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SIP-5 TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PS1240P02CT3/TDK/view-part/293543/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q?(SOT95P230X110-3N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MMBT3904"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MMBT3904-7-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "0805W8J0102T5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "0805W8J0102T5E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=BZ-2
+Added Pin To Net: NetName=GND Pin=Q?-E
+Added Pin To Net: NetName=IO14 Pin=R?-1
+Added Pin To Net: NetName=3.3V Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=IO7/SCL New Net Name=SCL
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(133, 32, 12)
+Added Pin To Net: NetName=IO7/SCL Pin=R20-2
+Added Pin To Net: NetName=IO7/SCL Pin=TP1-TP
+Added Pin To Net: NetName=IO7/SCL Pin=U1-16
+Added Net: Name=IO7/SCL
+Added Pin To Net: NetName=NetBZ_1 Pin=BZ-1
+Added Pin To Net: NetName=NetBZ_1 Pin=Q?-C
+Added Pin To Net: NetName=NetBZ_1 Pin=R?-1
+Added Net: Name=NetBZ_1
+Added Pin To Net: NetName=NetQ?_B Pin=Q?-B
+Added Pin To Net: NetName=NetQ?_B Pin=R?-2
+Added Net: Name=NetQ?_B
+Added Member To Class: ClassName=HMI Member=Component BZ Buzzer
+Added Member To Class: ClassName=HMI Member=Component Q? 3904
+Added Member To Class: ClassName=HMI Member=Component R? 1k
+Added Member To Class: ClassName=HMI Member=Component R? 1k

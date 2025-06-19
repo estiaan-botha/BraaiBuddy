@@ -1,0 +1,50 @@
+Added Component: Designator=C1(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/08055c104kaz2a/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAZ2A?qs=qS4bad6%2Fhx%2FmMvJL3brjow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/08055c104kaz2a/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAZ2A?qs=qS4bad6%2Fhx%2FmMvJL3brjow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=L1(INDC2012X125N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/54/CV201210-777527.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = "30OHM,1.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "SparkFun-Passives"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PROD_ID"; Value = "RES-07859"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "INDUCTOR"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=SDO/SA0 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=SDO/SA0 Pin=L1-1
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=IC1-8
+Added Pin To Net: NetName=NetC2_2 Pin=L1-2
+Added Net: Name=NetC2_2
+Added Member To Class: ClassName=Gyroscope Interface Member=Component C1 100nF
+Added Member To Class: ClassName=Gyroscope Interface Member=Component C2 100nF
+Added Member To Class: ClassName=Gyroscope Interface Member=Component L1 33uH
+Add Class Member: Failed to add class member : Component R5 10K
+Add Class Member: Failed to add class member : Component R6 10K

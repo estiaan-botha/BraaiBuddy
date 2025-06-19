@@ -1,0 +1,261 @@
+Removed Pin From Net: NetName=SDO/SA0 Pin=R5-2
+Change Component Footprint: Designator=IC2 Old Footprint=ESP32C6MINI1H8 New Footprint=SON65P300X300X100-9N-D
+Change Component Footprint: Designator=R6 Old Footprint=RESC2012X60N New Footprint=ERJ6ENF1000V
+Change Component Comment : Designator=R5 Old Comment=10k New Comment=200k
+Change Component Comment : Designator=R6 Old Comment=10k New Comment=357k
+Change Component Comment : Designator=IC2 Old Comment=ESP32-C6-MINI-1-H8 New Comment=TPS785-Q1
+Change component parameters: Designator = "IC2" ("IC2"); Footprint = "ESP32C6MINI1H8"; UniqueID = "\RRTRRDMI\BRWATEIG" ("\RRTRRDMI\BRWATEIG")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "TPS78501QWDRBRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tps78501qwdrbrq1/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/gpn/TPS785-Q1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/gpn/TPS785-Q1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS78501QWDRBRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "595-TPS78501QWDRBRQ1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS78501QWDRBRQ1?qs=iLbezkQI%252Bsjtafwbr0PHJA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "RESC2012X60N"; UniqueID = "\RRTRRDMI\OANVYFOR" ("\RRTRRDMI\OANVYFOR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.koaspeer.com/pdfs/SG73P.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "RESC2012X60N"; UniqueID = "\RRTRRDMI\MURWIJTD" ("\RRTRRDMI\MURWIJTD")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-6ENF3573V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "667-ERJ-6ENF3573V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "http://www.mouser.com/Search/ProductDetail.aspx?qs=50QC8w71jAs0wPzf%2f68dcA%3d%3d"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found TACTILE_SWITCH_SMD_4.6X2.8MM
+Added Component: Designator=C3(CAPC2012X135N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Added Component: Designator=C?(CAPC2012X135N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2012X135N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC2012X135N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TAIYO YUDEN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=963-LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found SOD-323
+Add Component: Footprint Not Found SMT-JUMPER_3_2-NC_TRACE_SILK
+Added Component: Designator=J1(1769)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Product Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found USB-C-16P_4LAYER-PADS
+Add Component: Footprint Not Found SMT-JUMPER_2_NC_TRACE_SILK
+Add Component: Footprint Not Found SOT23-3
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found TACTILE_SWITCH_SMD_4.6X2.8MM
+Add Component: Footprint Not Found SMT-JUMPER_2_NC_TRACE_SILK
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Added Component: Designator=U1(ESP32C6MINI1H8)
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PROD_ID"; Value = "IC-19033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT23-5
+Add Pin To Net: Unknown Pin: Pin BOOT?-1
+Add Pin To Net: Unknown Pin: Pin BOOT?-2
+Added Pin To Net: NetName=SDO/SA0 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Add Pin To Net: Unknown Pin: Pin I?-2
+Added Pin To Net: NetName=SDO/SA0 Pin=IC2-1
+Added Pin To Net: NetName=GND Pin=IC2-5
+Added Pin To Net: NetName=GND Pin=IC2-9
+Added Pin To Net: NetName=GND Pin=J1-2
+Add Pin To Net: Unknown Pin: Pin J?-GND2
+Add Pin To Net: Unknown Pin: Pin J?-GND
+Add Pin To Net: Unknown Pin: Pin PWR?-2
+Added Pin To Net: NetName=GND Pin=R5-2
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-1
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin R?-2
+Add Pin To Net: Unknown Pin: Pin RESET?-1
+Add Pin To Net: Unknown Pin: Pin RESET?-2
+Add Pin To Net: Unknown Pin: Pin SHLD?-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=SDO/SA0 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U1-36
+Added Pin To Net: NetName=GND Pin=U1-37
+Added Pin To Net: NetName=GND Pin=U1-38
+Added Pin To Net: NetName=GND Pin=U1-39
+Added Pin To Net: NetName=GND Pin=U1-40
+Added Pin To Net: NetName=GND Pin=U1-41
+Added Pin To Net: NetName=GND Pin=U1-42
+Added Pin To Net: NetName=GND Pin=U1-43
+Added Pin To Net: NetName=GND Pin=U1-44
+Added Pin To Net: NetName=GND Pin=U1-45
+Added Pin To Net: NetName=GND Pin=U1-46
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U1-48
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Pin To Net: NetName=GND Pin=U1-50
+Added Pin To Net: NetName=GND Pin=U1-51
+Added Pin To Net: NetName=GND Pin=U1-52
+Added Pin To Net: NetName=GND Pin=U1-53
+Add Pin To Net: Unknown Pin: Pin U?-2
+Added Pin To Net: NetName=NetBOOT?_3,4 Pin=C?-1
+Added Pin To Net: NetName=NetBOOT?_3,4 Pin=U1-23
+Added Net: Name=NetBOOT?_3,4
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=IC2-7
+Added Pin To Net: NetName=NetC?_1 Pin=IC2-8
+Added Net: Name=NetC?_1
+Add Net: Net with name "NetC?_1" already exists
+Added Pin To Net: NetName=NetD?_A Pin=U1-29
+Added Net: Name=NetD?_A
+Add Net: Net with name "NetD?_A" already exists
+Add Net: Net with name "NetD?_A" already exists
+Added Net: Name=NetD?_C
+Add Net: Net with name "NetD?_C" already exists
+Add Net: Net with name "NetD?_C" already exists
+Added Net: Name=NetI?_1
+Added Net: Name=NetI?_3
+Added Pin To Net: NetName=NetIC1_13 Pin=IC1-13
+Added Net: Name=NetIC1_13
+Added Pin To Net: NetName=NetIC1_14 Pin=IC1-14
+Added Net: Name=NetIC1_14
+Added Pin To Net: NetName=NetIC2_2 Pin=IC2-2
+Added Pin To Net: NetName=NetIC2_2 Pin=R5-1
+Added Pin To Net: NetName=NetIC2_2 Pin=R6-1
+Added Net: Name=NetIC2_2
+Added Net: Name=NetJ?_A5
+Added Pin To Net: NetName=NetJ?_A6,B6 Pin=U1-18
+Added Net: Name=NetJ?_A6,B6
+Added Pin To Net: NetName=NetJ?_A7,B7 Pin=U1-17
+Added Net: Name=NetJ?_A7,B7
+Added Net: Name=NetJ?_B5
+Added Net: Name=NetJ?_SHLD1-4
+Added Pin To Net: NetName=NetR?_1 Pin=U1-15
+Added Net: Name=NetR?_1
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Net: Name=NetR?_2
+Add Net: Net with name "NetR?_2" already exists
+Added Pin To Net: NetName=NetU1_5 Pin=U1-5
+Added Net: Name=NetU1_5
+Added Pin To Net: NetName=NetU1_6 Pin=U1-6
+Added Net: Name=NetU1_6
+Added Pin To Net: NetName=NetU1_9 Pin=U1-9
+Added Net: Name=NetU1_9
+Added Pin To Net: NetName=NetU1_10 Pin=U1-10
+Added Net: Name=NetU1_10
+Added Pin To Net: NetName=NetU1_24 Pin=U1-24
+Added Net: Name=NetU1_24
+Added Pin To Net: NetName=NetU1_25 Pin=U1-25
+Added Net: Name=NetU1_25
+Added Pin To Net: NetName=NetU1_30 Pin=U1-30
+Added Net: Name=NetU1_30
+Added Pin To Net: NetName=NetU1_31 Pin=U1-31
+Added Net: Name=NetU1_31
+Added Pin To Net: NetName=V_BATT Pin=C?-2
+Added Pin To Net: NetName=V_BATT Pin=J1-1
+Added Net: Name=V_BATT
+Added Pin To Net: NetName=V_USB Pin=C?-2
+Added Net: Name=V_USB
+Change Class Name : Old Net Name=Microcontroller New Net Name=Power Management
+Added Class: Name=Microcontroller
+Added Member To Class: ClassName=Power Management Member=Component C3 2.2uF
+Added Member To Class: ClassName=Power Management Member=Component C? 2.2uF
+Added Member To Class: ClassName=Power Management Member=Component C? 2.2uF
+Added Member To Class: ClassName=Power Management Member=Component C? 2.2uF
+Add Class Member: Failed to add class member : Component D? 1A/23V/620mV
+Add Class Member: Failed to add class member : Component D? Yellow
+Added Member To Class: ClassName=Power Management Member=Component J1 1769
+Add Class Member: Failed to add class member : Component Q? 20V/4.2A/52mO/1.4W
+Add Class Member: Failed to add class member : Component R? 4.7k
+Add Class Member: Failed to add class member : Component R? 4.7k
+Add Class Member: Failed to add class member : Component R? 100k
+Add Class Member: Failed to add class member : Component U? MCP73831
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4

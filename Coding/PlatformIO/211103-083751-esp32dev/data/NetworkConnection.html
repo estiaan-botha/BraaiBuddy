@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Braai Buddy</title>
+</head>
+
+<script language="javascript" type="text/javascript">
+
+    var url = "ws://192.168.4.1:1337/";
+    var output;
+    var FirmwareOTAButton;
+    var SelectedInverter;
+
+    // This is called when the page finishes loading
+    function init() {
+        AttemptConnectbutton = document.getElementById("Connect");
+        output = document.getElementById("output");
+
+        // Connect to WebSocket server
+        wsConnect(url);
+    }
+
+    // Call this to connect to the WebSocket server
+    function wsConnect(url) {
+
+        // Connect to WebSocket server
+        websocket = new WebSocket(url);
+
+        // Assign callbacks
+        websocket.onopen = function (evt) { onOpen(evt) };
+        websocket.onclose = function (evt) { onClose(evt) };
+        websocket.onmessage = function (evt) { onMessage(evt) };
+        websocket.onerror = function (evt) { onError(evt) };
+    }
+
+    // Called when a WebSocket connection is established with the server
+    function onOpen(evt) {
+        // Log connection state
+        console.log("Connected");
+        RefreshWifiNetworks();
+        // Enable button
+        document.getElementById("Connect").disabled = false;
+        // Get the current state of the LED
+        myFunction();
+    }
+
+    // Called when the WebSocket connection is closed
+    function onClose(evt) {
+
+        // Log disconnection state
+        console.log("Disconnected");
+
+        // Disable button
+        AttemptConnectbutton.disabled = true;
+
+
+        // Try to reconnect after a few seconds
+        setTimeout(function () { wsConnect(url) }, 2000);
+    }
+
+    // Called when a message is received from the server
+    function onMessage(evt) {
+
+        // Print out our received message
+        console.log("Received: " + evt.data);
+
+        // Update circle graphic with LED state
+        var ReceivedStrType = evt.data.substr(0, 3);
+        var CellVoltage = 0;
+        switch (ReceivedStrType) {
+            case "Net":
+                document.getElementById("loaderID").style.display = "none";
+                let networkDropdown = document.getElementById('NetworkSSIDSelector');
+                let networkOption = document.createElement('option');
+                networkOption.text = evt.data.substr(3);
+                networkOption.value = evt.data.substr(3);
+                networkDropdown.add(networkOption);
+                document.getElementById("AttemptLabel").innerHTML = networkDropdown.length + " Networks Found!";
+                break;
+
+            case "NCS":
+                document.getElementById("loaderID").style.display = "none";
+                document.getElementById("AttemptLabel").innerHTML = evt.data.substr(4);
+                if (evt.data.substr(15, 1) == "s") {
+                    setTimeout(function () { self.close(); }, 4000);
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    // Called when a WebSocket error occurs
+    function onError(evt) {
+        console.log("ERROR: " + evt.data);
+    }
+
+    // Sends a message to the server (and prints it to the console)
+    function doSend(message) {
+        console.log("Sending: " + message);
+        websocket.send(message);
+    }
+
+
+    function AttemptConnect() {
+        var NetworkSSID = document.getElementById("NetworkSSIDSelector").value;
+        var NetworkPassw = document.getElementById("NetworkPassw").value;
+        document.getElementById("AttemptLabel").innerHTML = "Connecting to " + document.getElementById("NetworkSSIDSelector").value;
+        document.getElementById("loaderID").style.display = "inline-block";
+        doSend("SSID:" + NetworkSSID);
+        doSend("Pass:" + NetworkPassw);
+    }
+
+    function myFunction() {
+        //setInterval(function(){ doSend("SendMeParameters"); }, 3000); //This can send anything
+    }
+
+    function RefreshWifiNetworks() {
+        document.getElementById("AttemptLabel").innerHTML = "Refreshing networks...";
+        document.getElementById("loaderID").style.display = "inline-block";
+        doSend("RefreshWifiNetworks");
+        var select = document.getElementById("NetworkSSID");
+        document.getElementById("NetworkSSIDSelector").options.length = 0;
+    }
+    // Call the init function as soon as the page loads
+    window.addEventListener("load", init, false);
+
+</script>
+
+<body>
+
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+
+    v1.0
+    <h1 style="text-align: center">Connect to a Wi-Fi network</h1>
+    <br>
+
+
+    <div style="margin-left: 39%">
+        <label id="RefreshingLabel"><b>
+                <font size="+2">Status:</font>
+            </b></h3></label><label style="margin-left: 0.5cm;" id="AttemptLabel">Please refresh networks!</label>
+        <div id="loaderID" style="display: none" class="loader"></div>
+        <br>
+        <br>
+        <br>
+        <form>
+            <div style="text-align: justify">
+                <label style="padding-left: 3px" for="NetworkSSIDSelector">Choose a network: </label>
+                <select style="display:inline-block; min-width: 208px" id="NetworkSSIDSelector"
+                    name="NetworkSSIDSelector"></select>
+                <br>
+                <label for="NetworkPassw">Network password: </label>
+                <input style="display:inline-block; min-width: 200px" type="text" id="NetworkPassw" name="NetworkPassw">
+            </div>
+            <br>
+        </form>
+        <br>
+        <button style="width: 150px; margin-left: 20px;" id="Connect" onclick="AttemptConnect()">Connect </button>
+        <button style="width: 150px" id="RefreshWiFi" onclick="RefreshWifiNetworks()"> Refresh Networks</button>
+        <br>
+        <br>
+
+    </div>
+
+</body>

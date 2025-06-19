@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=GND Pin=U1-11
+Removed Pin From Net: NetName=GND Pin=U1-14
+Removed Pin From Net: NetName=GND Pin=U1-36
+Removed Pin From Net: NetName=GND Pin=U1-37
+Removed Pin From Net: NetName=GND Pin=U1-38
+Removed Pin From Net: NetName=GND Pin=U1-39
+Removed Pin From Net: NetName=GND Pin=U1-40
+Removed Pin From Net: NetName=GND Pin=U1-41
+Removed Pin From Net: NetName=GND Pin=U1-42
+Removed Pin From Net: NetName=GND Pin=U1-43
+Removed Pin From Net: NetName=GND Pin=U1-44
+Removed Pin From Net: NetName=GND Pin=U1-45
+Removed Pin From Net: NetName=GND Pin=U1-46
+Removed Pin From Net: NetName=GND Pin=U1-47
+Removed Pin From Net: NetName=GND Pin=U1-48
+Removed Pin From Net: NetName=GND Pin=U1-50
+Removed Pin From Net: NetName=GND Pin=U1-51
+Removed Pin From Net: NetName=GND Pin=U1-52
+Removed Pin From Net: NetName=GND Pin=U1-53
+Change component parameters: Designator = "U1" ("U1"); Footprint = "ESP32C6MINI1H8"; UniqueID = "\CHZBZPDI\LLYSFVIJ" ("\CHZBZPDI\LLYSFVIJ")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PROD_ID"; Value = "IC-19033"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "187-CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/08055c104kaz2a/avx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.94mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Kyocera AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "581-08055C104KAZ2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/08055C104KAZ2A?qs=qS4bad6%2Fhx%2FmMvJL3brjow%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3.3V Pin=C14-2
+Change Net Color : Old Net Color=RGB(255, 153, 51) New Net Color=Default
+Change Net Color : Old Net Color=RGB(0, 204, 0) New Net Color=Default
+Added Member To Class: ClassName=Microcontroller Member=Component C13 10uF
+Added Member To Class: ClassName=Microcontroller Member=Component C14 100nF

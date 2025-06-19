@@ -1,0 +1,4 @@
+Change component parameters: Designator = "J2" ("J2"); Footprint = "CUI_UJ20-C-H-G-SMT-TR"; UniqueID = "\CHZBZPDI\BLPTRSLP" ("\CHZBZPDI\BLPTRSLP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.sameskydevices.com/product/resource/uj20-c-h-g-smt-tr.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UJ20-C-H-G-SMT-TR"; VariantName = "[No Variations]"

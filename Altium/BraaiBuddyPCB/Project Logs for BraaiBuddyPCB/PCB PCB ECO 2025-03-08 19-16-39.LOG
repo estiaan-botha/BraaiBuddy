@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=IO7/SCL Pin=TP1-TP
+Removed Pin From Net: NetName=IO6/SDA Pin=TP2-TP
+Removed Pin From Net: NetName=IO9/BOOT Pin=TP3-TP
+Removed Pin From Net: NetName=EN Pin=TP4-TP
+Removed Member From Class: ClassName=Microcontroller Member=TP1
+Removed Member From Class: ClassName=Microcontroller Member=TP2
+Removed Member From Class: ClassName=Microcontroller Member=TP3
+Removed Member From Class: ClassName=Microcontroller Member=TP4

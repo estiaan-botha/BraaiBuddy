@@ -1,0 +1,45 @@
+Removed Member From Class: ClassName=HMI Member=R28
+Change Component Designator: OldDesignator=BZ NewDesignator=BZ1
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R21
+Change Component Designator: OldDesignator=R20 NewDesignator=R22
+Change Component Designator: OldDesignator=R21 NewDesignator=R23
+Change Component Designator: OldDesignator=R22 NewDesignator=R24
+Change Component Designator: OldDesignator=R23 NewDesignator=R25
+Change Component Designator: OldDesignator=R24 NewDesignator=R26
+Change Component Designator: OldDesignator=R25 NewDesignator=R27
+Change Component Designator: OldDesignator=R26.1 NewDesignator=R28.1
+Change Component Designator: OldDesignator=R26.2 NewDesignator=R28.2
+Change Component Designator: OldDesignator=R26.3 NewDesignator=R28.3
+Change Component Designator: OldDesignator=R26.4 NewDesignator=R28.4
+Change Component Designator: OldDesignator=R26.5 NewDesignator=R28.5
+Change Component Designator: OldDesignator=R27.1 NewDesignator=R29.1
+Change Component Designator: OldDesignator=R27.2 NewDesignator=R29.2
+Change Component Designator: OldDesignator=R27.3 NewDesignator=R29.3
+Change Component Designator: OldDesignator=R27.4 NewDesignator=R29.4
+Change Component Designator: OldDesignator=R27.5 NewDesignator=R29.5
+Change Component Designator: OldDesignator=R28 NewDesignator=R17
+Change Component Designator: OldDesignator=R29 NewDesignator=R20
+Added Pin To Net: NetName=SCL Pin=R22-2
+Added Pin To Net: NetName=SCL Pin=TP1-TP
+Added Pin To Net: NetName=SCL Pin=U1-16
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=NetBZ_1 New Net Name=NetBZ1_1
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=SCL New Net Name=IO7/SCL
+Change Net Color : Old Net Color=RGB(197, 0, 142) New Net Color=RGB(133, 32, 12)
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=RGB(133, 32, 12)
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=RGB(133, 32, 12)
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=RGB(133, 32, 12)
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=RGB(133, 32, 12)
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=RGB(133, 32, 12)
+Added Member To Class: ClassName=HMI Member=Component R19 4.7K

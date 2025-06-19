@@ -1,0 +1,48 @@
+Add Component: Footprint Not Found 0603-CAP
+Add Component: Footprint Not Found 0603-CAP
+Add Component: Footprint Not Found LGA14L_DOT_INDICATOR
+Add Component: Footprint Not Found 0603
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Add Component: Footprint Not Found 0603-RES
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin IC1-1
+Add Pin To Net: Unknown Pin: Pin IC1-2
+Add Pin To Net: Unknown Pin: Pin IC1-3
+Add Pin To Net: Unknown Pin: Pin IC1-5
+Add Pin To Net: Unknown Pin: Pin IC1-6
+Add Pin To Net: Unknown Pin: Pin IC1-7
+Add Pin To Net: Unknown Pin: Pin IC1-8
+Add Pin To Net: Unknown Pin: Pin IC1-12
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-2
+Added Pin To Net: NetName=I2C_SCL Pin=IC2-15
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=IC2-13
+Added Net: Name=I2C_SDA
+Add Class Member: Failed to add class member : Component C1 0.1uF
+Add Class Member: Failed to add class member : Component C2 0.1uF
+Add Class Member: Failed to add class member : Component IC1 LSM6DS3
+Add Class Member: Failed to add class member : Component L1 33uH
+Add Class Member: Failed to add class member : Component R1 10K
+Add Class Member: Failed to add class member : Component R2 10K
+Add Class Member: Failed to add class member : Component R3 10K
+Add Class Member: Failed to add class member : Component R4 10K
+Add Class Member: Failed to add class member : Component R5 10K
+Add Class Member: Failed to add class member : Component R6 10K

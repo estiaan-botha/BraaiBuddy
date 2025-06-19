@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=SD_CD Pin=U1-29
+Change Component Designator: OldDesignator=TP10.1 NewDesignator=TP11.1
+Change Component Designator: OldDesignator=TP10.2 NewDesignator=TP11.2
+Change Component Designator: OldDesignator=TP10.3 NewDesignator=TP11.3
+Change Component Designator: OldDesignator=TP10.4 NewDesignator=TP11.4
+Change Component Designator: OldDesignator=TP10.5 NewDesignator=TP11.5
+Change Component Designator: OldDesignator=TP11.1 NewDesignator=TP12.1
+Change Component Designator: OldDesignator=TP11.2 NewDesignator=TP12.2
+Change Component Designator: OldDesignator=TP11.3 NewDesignator=TP12.3
+Change Component Designator: OldDesignator=TP11.4 NewDesignator=TP12.4
+Change Component Designator: OldDesignator=TP11.5 NewDesignator=TP12.5
+Change Component Designator: OldDesignator=TP12.1 NewDesignator=TP13.1
+Change Component Designator: OldDesignator=TP12.2 NewDesignator=TP13.2
+Change Component Designator: OldDesignator=TP12.3 NewDesignator=TP13.3
+Change Component Designator: OldDesignator=TP12.4 NewDesignator=TP13.4
+Change Component Designator: OldDesignator=TP12.5 NewDesignator=TP13.5
+Change Component Designator: OldDesignator=TP13.1 NewDesignator=TP14.1
+Change Component Designator: OldDesignator=TP13.2 NewDesignator=TP14.2
+Change Component Designator: OldDesignator=TP13.3 NewDesignator=TP14.3
+Change Component Designator: OldDesignator=TP13.4 NewDesignator=TP14.4
+Change Component Designator: OldDesignator=TP13.5 NewDesignator=TP14.5
+Added Component: Designator=TP10(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SD_CD Pin=TP10-TP
+Added Pin To Net: NetName=SD_D3 Pin=U1-29
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Member To Class: ClassName=Microcontroller Member=Component TP10 *

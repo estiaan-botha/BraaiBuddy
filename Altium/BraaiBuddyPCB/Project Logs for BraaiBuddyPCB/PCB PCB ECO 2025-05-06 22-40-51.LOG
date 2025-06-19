@@ -1,0 +1,9 @@
+Added Component: Designator=LED3(LED THP Dialight 521-8559F)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/109/C18455B-1843429.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "521-8559F"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=NetLED3_3 Pin=LED3-3
+Added Pin To Net: NetName=NetLED3_4 Pin=LED3-4
+Added Member To Class: ClassName=HMI Member=Component LED3 LED RGB THP SRAIGHT-LEG

@@ -1,0 +1,43 @@
+Importer Log Report
+Project : LSM6DS3_Breakout.PrjPcb
+
+Section : Analyze Document - D:\_Studies\2025\Skripsie\Altium\Imports\LSM6DS3_Breakout.sch
+    Analyzing data of D:\_Studies\2025\Skripsie\Altium\Imports\LSM6DS3_Breakout.sch
+    Load settings
+    Load layers 140
+    Load schematic
+    Load Libraries 7
+    Load Library "SparkFun-Aesthetics"
+    Load Packages 34
+    Load Symbols 8
+    Load DeviceSets 7
+    Load Library "LSM6DS3"
+    Load Packages 2
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "SparkFun-Connectors"
+    Load Packages 51
+    Load Symbols 3
+    Load DeviceSets 3
+    Load Library "SparkFun-Capacitors"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "SparkFun-Passives"
+    Load Packages 30
+    Load Symbols 4
+    Load DeviceSets 4
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 2
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "SparkFun-Resistors"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 2
+    Load Attributes 0
+    Load Classes 1
+    Load Parts 38
+    Load Sheets 1
+    ERROR: Unhandled type <errors>
+EndSection

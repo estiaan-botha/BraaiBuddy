@@ -1,0 +1,268 @@
+body{
+background-repeat: no-repeat;
+ background-attachment: fixed;   
+ background-size:cover;
+ font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+background-color: #ffffff;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+table
+{
+margin-right: auto;
+margin-left: auto;
+}
+
+#SOCImage{
+    height:270px;
+    width: 150px;
+    background-size:contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+#BasicParam{
+	width: 55%;
+  	top: 50%;
+    font-size: x-large;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px solid #000000;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	/* border-radius: 10px; */
+}
+#timing_params{
+	width: 70%;
+  	top: 50%;
+    font-size: medium;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px solid #0c3a00;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+#FirmwareUpdate{
+    float: right;
+	box-shadow:inset 0px 0px 3px 0px #787c80;
+	background-color:#000000;
+	border-radius:3px;
+	border:1px solid rgb(76, 237, 62);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(76, 237, 62);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+#type_of_test{
+	float: right;
+	box-shadow:inset 0px 0px 3px 0px #787c80;
+	background-color:#000000;
+	border-radius:3px;
+	border:1px solid rgb(76, 237, 62);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(76, 237, 62);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.probe-section {
+    margin-bottom: 20px;
+}
+label {
+	font-family:Arial;
+	margin-right: 400px;
+}
+select {
+	padding: 5px;
+}
+#startSequenceButton {
+	/* float: right; */
+	box-shadow:inset 0px 0px 3px 0px #292929;
+	background-color:#cacaca;
+	border-radius:3px;
+	border:1px solid rgb(41, 41, 41);
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(0, 0, 0);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	/* text-shadow: 0px 1px 0px #154682; */
+}
+#temperatureChart1, #temperatureChart2 {
+	width: 100%;
+	max-width: 950px;
+	height: 180px;
+	box-sizing: border-box;
+}
+.chart-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 4%;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 20px;
+}
+  
+.chart-canvas {
+	width: 800px !important;   /* Set your desired width */
+	height: 500px !important;  /* Adjust height as needed */
+	display: block;
+	margin: 0 auto;
+}
+#run_mode_button{
+    float: right;
+	width: 220px;
+	box-shadow:inset 0px 0px 3px 0px #787c80;
+	background-color:#000000;
+	border-radius:3px;
+	border:1px solid rgb(237, 62, 62);
+	cursor:pointer;
+	color:rgb(237, 62, 62);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+#NetworkConnect{
+    float: right;
+	box-shadow:inset 0px 0px 3px 0px #292929;
+	background-color:#cacaca;
+	border-radius:3px;
+	border:1px solid rgb(41, 41, 41);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(0, 0, 0);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #154682; */
+}
+#APMode{
+    float: right;
+	box-shadow:inset 0px 0px 3px 0px #292929;
+	background-color:#cacaca;
+	border-radius:3px;
+	border:1px solid rgb(41, 41, 41);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(0, 0, 0);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #154682; */
+}
+#wifiStatus{
+	box-shadow:inset 0px 0px 16px 0px #787c80;
+	/* background:linear-gradient(to bottom, #e5f31a 5%, #d6c20b 100%); */
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	width: 30%;
+}
+
+
+#toggleButton{
+    
+    background-color: #80A3A3;
+}
+
+.Relay-btn-group{
+	display: block;
+    color: white;
+    /* padding: 10px 24px;  */
+    cursor: pointer;
+    margin: auto;
+	text-align: center;
+}
+#apply_settings{
+	display: block;
+	text-align: center;
+	box-shadow:inset 0px 0px 3px 0px #787c80;
+	background-color:#000000;
+	border-radius:3px;
+	border:1px solid rgb(76, 237, 62);
+	display:inline-block;
+	margin: auto;
+	cursor:pointer;
+	color: rgb(76, 237, 62);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+#apply_settings_div{
+		text-align: center;
+}
+
+#Relay1{
+	box-shadow:inset 0px 0px 3px 0px #292929;
+	background-color:#cacaca;
+	border-radius:3px;
+	border:1px solid rgb(41, 41, 41);
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(0, 0, 0);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #154682; */
+}
+#ClearChartData{
+	box-shadow:inset 0px 0px 3px 0px #292929;
+	background-color:#cacaca;
+	border-radius:3px;
+	border:1px solid rgb(41, 41, 41);
+	display:inline-block;
+	cursor:pointer;
+	color: rgb(0, 0, 0);
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #154682; */
+}
+
+.loader {
+	border: 4px solid #f3f3f3; /* Light grey */
+	border-top: 4px solid #1a5780; /* Blue */
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	animation: spin 2s linear infinite;
+	display:inline-block;
+	margin-left: 20px;
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }

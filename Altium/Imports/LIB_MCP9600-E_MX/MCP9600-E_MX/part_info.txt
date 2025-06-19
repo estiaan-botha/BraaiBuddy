@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP9600-E/MX
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2019-10-07 11:34:26
+Downloaded=2025-02-22 19:11:45
+3D=Y

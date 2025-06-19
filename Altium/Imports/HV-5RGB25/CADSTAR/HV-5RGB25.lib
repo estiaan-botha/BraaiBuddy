@@ -1,0 +1,16 @@
+.HV-5RGB25 :1 ;Standard LEDs - Through Hole RGB LED
+HV5RGB25
+*STM LED
+*NGS
+*PLB 1="ANODE BLUE" 2="ANODE RED" 3="COMMON CATHODE" 4="ANODE GREEN"
+*MXP 4
+*DFN HV-5RGB25
+~!Mouser Part Number (743-HV-5RGB25)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Inolux/HV-5RGB25?qs=qSfuJ%252Bfl%2Fd4T3SbXFpBJvw%3D%3D)
+~!Manufacturer_Name (Inolux)
+~!Manufacturer_Part_Number (HV-5RGB25)
+~!Link Datasheet (http://www.inolux-corp.com/datasheet/Inolux%20Lamp/TH%20Lamp/HV-5RGBXX%205mm%20Full-Color%20Series.pdf)
+~!Height (8.9mm)
+~!3D_Model (HV-5RGB25)
+HV-5RGB25
+1.1!U 2.1!U 3.1!U 4.1!U 

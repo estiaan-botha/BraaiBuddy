@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=SD_CD Pin=J3-P2
+Removed Pin From Net: NetName=SD_CD Pin=R30-2
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Pin To Net: NetName=SD_D3 Pin=J3-P2
+Added Pin To Net: NetName=SD_D3 Pin=R30-2
+Added Net: Name=SD_D3
+Added Member To Class: ClassName=Microcontroller Member=Component R22 100k
+Added Member To Class: ClassName=Microcontroller Member=Component R23 2.2K
+Added Member To Class: ClassName=Microcontroller Member=Component R26 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R27 10k

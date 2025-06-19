@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <script src="chart.js"></script>
+  <script src="chartjs-adapter-date-fns.js"></script>
+  <title>Braai Buddy</title>
+</head>
+
+<script language="javascript" type="text/javascript">
+  // Log the full URL of the page for debugging purposes
+  console.log("The URL of this page is: " + window.location.href);
+  // Log the URL hostname of the page for debugging purposes
+  console.log("The URL hostname of this page is: " + window.location.hostname);
+  var url = "ws://" + window.location.hostname + ":1337/";
+
+  // var FirmwareOTAButton;
+  // var AutoOTAButton;
+
+  // For the charts
+  var plottingEnabled = false; // Flag to control plotting
+  let latest_temps = {
+    temp1: null,
+    temp2: null,
+    temp3: null,
+    temp4: null,
+    temp5: null,
+    time: null
+  };
+
+  // For graphing the temperature data
+  // Save data to localStorage
+  function saveChartData() {
+    const chartData1 = {
+      labels: temperatureChart1.data.labels,
+      datasets: temperatureChart1.data.datasets.map(dataset => dataset.data),
+    };
+    const chartData2 = {
+      labels: temperatureChart2.data.labels,
+      datasets: temperatureChart2.data.datasets.map(dataset => dataset.data),
+    };
+    localStorage.setItem('temperatureChartData1', JSON.stringify(chartData1));
+    localStorage.setItem('temperatureChartData2', JSON.stringify(chartData2));
+    localStorage.setItem('plottingEnabled', plottingEnabled ? 'true' : 'false'); // Save plottingEnabled
+  }
+
+  // Load data from localStorage upon page refresh
+  function loadChartData() {
+    const savedData1 = localStorage.getItem('temperatureChartData1');
+    const savedData2 = localStorage.getItem('temperatureChartData2');
+    const savedPlotting = localStorage.getItem('plottingEnabled'); // Load plottingEnabled
+    if (savedData1) {
+      const chartData1 = JSON.parse(savedData1);
+      temperatureChart1.data.labels = chartData1.labels;
+      chartData1.datasets.forEach((data, index) => {
+        temperatureChart1.data.datasets[index].data = data;
+      });
+      temperatureChart1.update(); // Update the chart with the restored data
+    }
+
+    if (savedData2) {
+      const chartData2 = JSON.parse(savedData2);
+      temperatureChart2.data.labels = chartData2.labels;
+      chartData2.datasets.forEach((data, index) => {
+        temperatureChart2.data.datasets[index].data = data;
+      });
+      temperatureChart2.update(); // Update the chart with the restored data
+    }
+
+    // Restore plottingEnabled
+    plottingEnabled = (savedPlotting === 'true');
+  }
+
+  // Save data before unloading the page
+  window.addEventListener('beforeunload', saveChartData);
+
+  // Setup of how the graphs looks and respond to data
+  let temperatureChart1, temperatureChart2;
+  function initializeChart() {
+    // First chart: 3 temperature readings
+    const ctx1 = document.getElementById('temperatureChart1').getContext('2d');
+    temperatureChart1 = new Chart(ctx1, {
+      type: 'line',
+      data: {
+        labels: [], // Shared time labels
+        datasets: [
+          {
+            label: 'Temperature Channel 1 (°C)',
+            data: [], // Data for Channel 1
+            borderColor: 'rgba(255, 99, 132, 1)', // Red
+            backgroundColor: 'rgba(255, 99, 132, 0)',
+            borderWidth: 3,
+            fill: true,
+          },
+          {
+            label: 'Temperature Channel 2 (°C)',
+            data: [], // Data for Channel 2
+            borderColor: 'rgba(54, 162, 235, 1)', // Blue
+            backgroundColor: 'rgba(54, 162, 235, 0)',
+            borderWidth: 3,
+            fill: true,
+          },
+          {
+            label: 'Temperature Channel 3 (°C)',
+            data: [], // Data for Channel 3
+            borderColor: 'rgba(75, 192, 192, 1)', // Green
+            backgroundColor: 'rgba(75, 192, 192, 0)',
+            borderWidth: 3,
+            fill: true,
+          },
+          // {
+          //   label: 'Temperature Channel 4 (°C)',
+          //   data: [], // Data for Channel 4
+          //   borderColor: 'rgba(153, 102, 255, 1)', // Purple
+          //   backgroundColor: 'rgba(153, 102, 255, 0)',
+          //   borderWidth: 3,
+          //   fill: true,
+          // },
+          // {
+          //   label: 'Temperature Channel 5 (°C)',
+          //   data: [], // Data for Channel 5
+          //   borderColor: 'rgba(255, 159, 64, 1)', // Orange
+          //   backgroundColor: 'rgba(255, 159, 64, 0)',
+          //   borderWidth: 3,
+          //   fill: true,
+          // },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            type: 'time',
+            time: {
+              unit: 'second',
+            },
+          },
+          y: {
+            beginAtZero: false,
+            // min: 0,              // Minimum value for the y-axis
+            // max: 80,             // Maximum value for the y-axis
+            // ticks: {
+            //   stepSize: 2, // Step size for the y-axis ticks
+            //   callback: function (value) {
+            //     return value + '°C'; // Append °C to the y-axis labels
+            //   },
+            // }
+            ticks: {
+              callback: function (value) {
+                return value + '°C';
+              },
+            }
+          },
+        },
+      },
+    });
+
+    // Second chart: 2 temperature readings
+    const ctx2 = document.getElementById('temperatureChart2').getContext('2d');
+    temperatureChart2 = new Chart(ctx2, {
+      type: 'line',
+      data: {
+        labels: [], // Shared time labels
+        datasets: [
+          {
+            label: 'Temperature Channel 4 (°C)',
+            data: [], // Data for Channel 4
+            borderColor: 'rgba(153, 102, 255, 1)', // Purple
+            backgroundColor: 'rgba(153, 102, 255, 0)',
+            borderWidth: 3,
+            fill: true,
+          },
+          {
+            label: 'Temperature Channel 5 (°C)',
+            data: [], // Data for Channel 5
+            borderColor: 'rgba(255, 159, 64, 1)', // Orange
+            backgroundColor: 'rgba(255, 159, 64, 0)',
+            borderWidth: 3,
+            fill: true,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            type: 'time',
+            time: {
+              unit: 'second',
+            },
+          },
+          y: {
+            beginAtZero: false,
+            // min: 0,              // Minimum value for the y-axis
+            // max: 80,             // Maximum value for the y-axis
+            // ticks: {
+            //   stepSize: 2, // Step size for the y-axis ticks
+            //   callback: function (value) {
+            //     return value + '°C'; // Append °C to the y-axis labels
+            //   },
+            // }
+            ticks: {
+              callback: function (value) {
+                return value + '°C';
+              },
+            }
+          },
+        },
+      },
+    });
+  }
+
+  // Function to clear localStorage data
+  function clearChartData() {
+    // Remove data from localStorage
+    localStorage.removeItem('temperatureChartData1');
+    localStorage.removeItem('temperatureChartData2');
+    console.log("Chart data cleared from localStorage.");
+
+    // Clear data for the first chart
+    if (temperatureChart1) {
+      temperatureChart1.data.labels = []; // Clear labels
+      temperatureChart1.data.datasets.forEach(dataset => {
+        dataset.data = []; // Clear dataset data
+      });
+      temperatureChart1.update(); // Update the chart
+    }
+
+    // Clear data for the second chart
+    if (temperatureChart2) {
+      temperatureChart2.data.labels = []; // Clear labels
+      temperatureChart2.data.datasets.forEach(dataset => {
+        dataset.data = []; // Clear dataset data
+      });
+      temperatureChart2.update(); // Update the chart
+    }
+  }
+
+  // Function to update the charts
+  function updateCharts() {
+    // Update the first chart with new data
+    if (plottingEnabled && temperatureChart1) {
+      temperatureChart1.data.labels.push(latest_temps.time); // Add timestamp
+      temperatureChart1.data.datasets[0].data.push(latest_temps.temp1); // Update Channel 1
+      temperatureChart1.data.datasets[1].data.push(latest_temps.temp2); // Update Channel 2
+      temperatureChart1.data.datasets[2].data.push(latest_temps.temp3); // Update Channel 3
+      if (temperatureChart1.data.labels.length > 100) {
+        temperatureChart1.data.labels.shift();
+        temperatureChart1.data.datasets.forEach(dataset => dataset.data.shift());
+      }
+      temperatureChart1.update(); // Update the chart
+    }
+
+    // Update the second chart with new data
+    if (plottingEnabled && temperatureChart2) {
+      temperatureChart2.data.labels.push(latest_temps.time); // Add timestamp
+      temperatureChart2.data.datasets[0].data.push(latest_temps.temp4); // Update Channel 4
+      temperatureChart2.data.datasets[1].data.push(latest_temps.temp5); // Update Channel 5
+      if (temperatureChart2.data.labels.length > 100) {
+        temperatureChart2.data.labels.shift();
+        temperatureChart2.data.datasets.forEach(dataset => dataset.data.shift());
+      }
+      temperatureChart2.update(); // Update the chart
+    }
+  }
+
+  function updateGridTurnTimeLabel(val) {
+    document.getElementById('gridTurnTimeValue').textContent = val;
+  }
+
+  // This is called when the page finishes loading
+  function init() {
+    ToggleRelay1Button = document.getElementById("Relay1");
+
+    // FirmwareOTAButton = document.getElementById("FirmwareUpdate");
+    GotoWifiAPmodeBUtton = document.getElementById("APMode");
+
+    ConnectToNetworkButton = document.getElementById("NetworkConnect");
+
+    // Connect to WebSocket server
+    wsConnect(url);
+  }
+
+  // Call this to connect to the WebSocket server
+  function wsConnect(url) {
+    // Connect to WebSocket server
+    websocket = new WebSocket(url);
+    // Assign callbacks
+    websocket.onopen = function (evt) {
+      onOpen(evt);
+    };
+    websocket.onclose = function (evt) {
+      onClose(evt);
+    };
+    websocket.onmessage = function (evt) {
+      onMessage(evt);
+    };
+    websocket.onerror = function (evt) {
+      onError(evt);
+    };
+  }
+  // Call this to connect to the WebSocket server
+
+  // Called when a WebSocket connection is established with the server
+  function onOpen(evt) {
+    // Log connection state
+    console.log("Connected");
+
+    // Enable button
+    GotoWifiAPmodeBUtton.disabled = false;
+    // FirmwareOTAButton.disabled = false;
+    ToggleRelay1Button.disabled = false;
+    ConnectToNetworkButton.disabled = false;
+
+    // doSend("SendMeParameters");
+    doSend("SendMeRefresh");
+
+    // if (!PageRefreshedSent) { // Check if "PageRefreshed" message has already been sent
+    //   doSend("PageRefreshed"); // Send the message to the server
+    //   PageRefreshedSent = true; // Set the flag to true to prevent sending it again
+    // }
+
+    myFunction();
+  }
+
+  // Called when the WebSocket connection is closed
+  function onClose(evt) {
+    // Log disconnection state
+    console.log("Disconnected");
+
+    // Disable button
+    GotoWifiAPmodeBUtton.disabled = true;
+    ToggleRelay1Button.disabled = true;
+    ConnectToNetworkButton.disabled = true;
+    //FirmwareOTAButton.disabled = true;
+    // Try to reconnect after a few seconds
+    setTimeout(function () {
+      wsConnect(url);
+    }, 2000);
+  }
+
+  // Called when a message is received from the server
+  function onMessage(evt) {
+    // Print out our received message
+    console.log("WebSocket received: " + evt.data);
+
+    // Update circle graphic with LED state
+    var ReceivedStrType = evt.data.substr(0, 3);
+
+    // Get time for graphing
+    const currentTime = new Date(); // Get the current time
+
+    // Handling of any message received from the ESP32
+    switch (ReceivedStrType) {
+      case "R10":
+        document.getElementById("Relay1").style.background = "black";
+        break;
+      case "R11":
+        document.getElementById("Relay1").style.background = "red";
+        break;
+      case "RM0":
+        document.getElementById("run_mode_button").style.background = "black";
+        document.getElementById("run_mode_button").innerHTML =
+          "Running mode: MANUAL";
+        break;
+
+      case "RM1":
+        document.getElementById("run_mode_button").style.background = "red";
+        document.getElementById("run_mode_button").innerHTML =
+          "Running mode: AUTO";
+        break;
+
+      case "WS0":
+        document.getElementById("wifiStatus").style.background = "Yellow";
+        document.getElementById("wifiStatus").innerHTML =
+          "WiFi Status: " + evt.data.substr(4);
+        break;
+
+      case "WS1":
+        document.getElementById("wifiStatus").style.background = "Green";
+        document.getElementById("wifiStatus").innerHTML =
+          "WiFi Status: Connected to " + evt.data.substr(4);
+        break;
+
+      case "MC1":
+        // const temp1 = parseFloat(evt.data.substr(3)); // Extract temperature value from the message
+
+        // // Update the temperature data in the chart
+        // if (plottingEnabled && temperatureChart1) {
+        //   temperatureChart1.data.labels.push(currentTime); // Add timestamp
+        //   temperatureChart1.data.datasets[0].data.push(temp1); // Update Channel 1
+
+        //   // Limit the number of data points
+        //   if (temperatureChart1.data.labels.length > 100) {
+        //     temperatureChart1.data.labels.shift();
+        //     temperatureChart1.data.datasets.forEach(dataset => dataset.data.shift());
+        //   }
+
+        //   temperatureChart1.update(); // Update the chart
+        // }
+
+        latest_temps.temp1 = parseFloat(evt.data.substr(3));
+        latest_temps.time = currentTime;                      // Update the time
+
+        document.getElementById("temp_sensor_ch1").innerHTML =
+          evt.data.substr(3) + "°C";
+        break;
+      case "MC2":
+        // const temp2 = parseFloat(evt.data.substr(3)); // Extract temperature value from the message
+
+        // // Update the temperature data in the chart
+        // if (plottingEnabled && temperatureChart1) {
+        //   temperatureChart1.data.datasets[1].data.push(temp2); // Update Channel 2
+        //   temperatureChart1.update();
+        // }
+
+        latest_temps.temp2 = parseFloat(evt.data.substr(3));
+
+        document.getElementById("temp_sensor_ch2").innerHTML =
+          evt.data.substr(3) + "°C";
+        break;
+      case "MC3":
+        // const temp3 = parseFloat(evt.data.substr(3)); // Extract temperature value from the message
+
+        // // Update the temperature data in the chart
+        // if (plottingEnabled && temperatureChart1) {
+        //   temperatureChart1.data.datasets[2].data.push(temp3); // Update Channel 3
+        //   temperatureChart1.update();
+        // }
+
+        latest_temps.temp3 = parseFloat(evt.data.substr(3));
+
+        document.getElementById("temp_sensor_ch3").innerHTML =
+          evt.data.substr(3) + "°C";
+        break;
+      case "MC4":
+        // const temp4 = parseFloat(evt.data.substr(3)); // Extract temperature value from the message
+
+        // // Update the temperature data in the chart
+        // if (plottingEnabled && temperatureChart2) {
+        //   temperatureChart2.data.labels.push(currentTime);
+        //   temperatureChart2.data.datasets[0].data.push(temp4); // Update Channel 4
+
+        //   if (temperatureChart2.data.labels.length > 100) {
+        //     temperatureChart2.data.labels.shift();
+        //     temperatureChart2.data.datasets.forEach(dataset => dataset.data.shift());
+        //   }
+
+        //   temperatureChart2.update();
+        // }
+
+        latest_temps.temp4 = parseFloat(evt.data.substr(3)); // Update the time
+
+        document.getElementById("temp_sensor_ch4").innerHTML =
+          evt.data.substr(3) + "°C";
+        break;
+      case "MC5":
+        // const temp5 = parseFloat(evt.data.substr(3)); // Extract temperature value from the message
+
+        // // Update the temperature data in the chart
+        // if (plottingEnabled && temperatureChart2) {
+        //   temperatureChart2.data.datasets[1].data.push(temp5); // Update Channel 5
+        //   temperatureChart2.update();
+        // }
+
+        latest_temps.temp5 = parseFloat(evt.data.substr(3)); // Update the time
+
+        document.getElementById("temp_sensor_ch5").innerHTML =
+          evt.data.substr(3) + "°C";
+        break;
+      case "ACX":
+        document.getElementById("accelerometer_x").innerHTML =
+          evt.data.substr(3);
+        break;
+      case "ACY":
+        document.getElementById("accelerometer_y").innerHTML =
+          evt.data.substr(3);
+        break;
+      case "ACZ":
+        document.getElementById("accelerometer_z").innerHTML =
+          evt.data.substr(3);
+        break;
+      case "BAT":
+        // Display battery voltage with 2 decimal places and "V"
+        document.getElementById("battery_voltage").innerHTML =
+          parseFloat(evt.data.substr(3)).toFixed(2) + " V";
+        break;
+      case "BZS":
+        document.getElementById("buzzer_status").innerHTML = evt.data.substr(3);
+        break;
+      case "SQ1":
+        document.getElementById("ch1_seq").innerHTML = evt.data.substr(3);
+        break;
+      case "SQ2":
+        document.getElementById("ch2_seq").innerHTML = evt.data.substr(3);
+        break;
+      case "SQ3":
+        document.getElementById("ch3_seq").innerHTML = evt.data.substr(3);
+        break;
+      case "SQ4":
+        document.getElementById("ch4_seq").innerHTML = evt.data.substr(3);
+        break;
+      case "SQ5":
+        document.getElementById("ch5_seq").innerHTML = evt.data.substr(3);
+        break;
+      case "SEQ":
+        document.getElementById("seq_status").innerHTML = evt.data.substr(3);
+        break;
+      default:
+        break;
+    }
+  }
+
+  // Called when a WebSocket error occurs
+  function onError(evt) {
+    console.log("ERROR: " + evt.data);
+  }
+
+  // Sends a message to the server (and prints it to the console)
+  function doSend(message) {
+    console.log("Sending: " + message);
+    websocket.send(message);
+  }
+
+  function FirmwareOTA() {
+    //Open new firmware update html on port 100
+    doSend("FirmwareOTA");
+    window.open("http://" + window.location.hostname + ":100/");
+  }
+  function toggle_run_mode() {
+    //Open new firmware update html on port 100
+    doSend("runmodetoggle");
+  }
+  function ConnectToNetwork() {
+    window.open("/NetworkConnection");
+  }
+  // function GotoApMode() {
+  //   doSend("GotoAPMode");
+  // }
+  function Relay1Toggle() {
+    doSend("toggleR1");
+    plottingEnabled = !plottingEnabled; // Toggle the plotting flag
+    if (plottingEnabled) {
+      document.getElementById("Relay1").innerHTML = "Stop Plotting";
+      document.getElementById("Relay1").style.background = "red";
+    } else {
+      document.getElementById("Relay1").innerHTML = "Start Plotting";
+      document.getElementById("Relay1").style.background = "gray";
+    }
+  }
+
+
+  function myFunction() {
+    setInterval(function () {
+      doSend("SendMeParameters");
+    }, 1000); //This can send anything to trigger websocket event to return params
+
+    setInterval(function () {
+      updateCharts();
+    }, 2000); //Update the charts only when this is called
+  }
+
+  // Start the sequence of tests/actions
+  function start_sequence() {
+    // Get the selected test for each probe
+    var probe1Test = document.getElementById("probe1").value;
+    var probe2Test = document.getElementById("probe2").value;
+    var probe3Test = document.getElementById("probe3").value;
+    var probe4Test = document.getElementById("probe4").value;
+    var probe5Test = document.getElementById("probe5").value;
+    var gridTurnTime = document.getElementById("gridTurnTime").value;
+
+    // Start plotiing the temperature data
+    plottingEnabled = true;
+
+    // Send the selected tests to the server
+    doSend("start_seq" + probe1Test + probe2Test + probe3Test + probe4Test + probe5Test + "GTT" + gridTurnTime);     //Probe 1 at position 9
+    //                                                                                                                 Probe 2 at position 12
+    //                                                                                                                 Probe 3 at position 15
+    //                                                                                                                 Probe 4 at position 18
+    //                                                                                                                 Probe 5 at position 21
+    //                                                                                                                 Grid Turn Time at position 24                                                                  Grid Turn Time at position 24
+  }
+
+  // Call the init function as soon as the page loads
+  // window.addEventListener("load", init, false);
+  window.addEventListener('load', () => {
+    init(); // Existing init function
+    initializeChart();
+    loadChartData(); // Restore data from localStorage
+  });
+</script>
+<!-- HTML -->
+
+<body>
+  <link rel="stylesheet" type="text/CSS" href="style.css" />
+
+  <button id="wifiStatus" disabled>WiFi Status: Disconnected</button>
+  <button id="NetworkConnect" onclick="ConnectToNetwork()" disabled>
+    Connect to a WiFi network
+  </button>
+  <button id="APMode" onclick="GotoApMode()" disabled>
+    Forget WiFi network
+  </button>
+  <!-- <button id="FirmwareUpdate" onclick="FirmwareOTA()" disabled>
+    Firmware update
+  </button> -->
+  <br />
+  <br />
+  <h1 style="text-align: center">Braai Buddy</h1>
+  <table id="BasicParam">
+    <tr>
+      <div class="probe-section">
+        <td><label for="probe1">Probe 1:</label></td>
+        <td><select id="probe1" name="probe1">
+            <option value="">Select Test</option>
+            <option value="BT1">Boiling Water Test</option>
+            <option value="CT1">Ice Water Test</option>
+            <option value="NA1">None</option>
+          </select></td>
+      </div>
+    </tr>
+    <tr>
+      <div class="probe-section">
+        <td><label for="probe2">Probe 2:</label></td>
+        <td><select id="probe2" name="probe2">
+            <option value="">Select Test</option>
+            <option value="BT2">Boiling Water Test</option>
+            <option value="CT2">Ice Water Test</option>
+            <option value="NA2">None</option>
+          </select></td>
+      </div>
+    </tr>
+    <tr>
+      <div class="probe-section">
+        <td><label for="probe3">Probe 3:</label></td>
+        <td><select id="probe3" name="probe3">
+            <option value="">Select Test</option>
+            <option value="BT3">Boiling Water Test</option>
+            <option value="CT3">Ice Water Test</option>
+            <option value="NA3">None</option>
+          </select></td>
+      </div>
+    </tr>
+    <tr>
+      <div class="probe-section">
+        <td><label for="probe4">Probe 4:</label></td>
+        <td><select id="probe4" name="probe4">
+            <option value="">Select Test</option>
+            <option value="BT4">Boiling Water Test</option>
+            <option value="CT4">Ice Water Test</option>
+            <option value="NA4">None</option>
+          </select></td>
+      </div>
+    </tr>
+    <tr>
+      <div class="probe-section">
+        <td><label for="probe5">Probe 5:</label></td>
+        <td><select id="probe5" name="probe5">
+            <option value="">Select Test</option>
+            <option value="BT5">Boiling Water Test</option>
+            <option value="CT5">Ice Water Test</option>
+            <option value="NA5">None</option>
+          </select></td>
+      </div>
+    </tr>
+    <tr>
+      <td>
+        <div style="margin: 20px 0;">
+          <label for="gridTurnTime">Grid Turning Time: <span id="gridTurnTimeValue">180</span> seconds</label>
+          <input type="range" id="gridTurnTime" min="60" max="300" value="180" step="10"
+            oninput="updateGridTurnTimeLabel(this.value)">
+          <!-- <button onclick="sendGridTurnTime()">Set Grid Turn Time</button> -->
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;">
+        <button id="startSequenceButton" onclick="start_sequence()">Start Sequence</button>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table id="BasicParam">
+    <tr>
+      <td>Temperature Sensor Channel 1:</td>
+      <td id="temp_sensor_ch1">N.A.</td>
+    </tr>
+    <tr>
+      <td>Channel 1 Sequence:</td>
+      <td id="ch1_seq">N.A.</td>
+    </tr>
+    <tr>
+      <td>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>Temperature Sensor Channel 2:</td>
+      <td id="temp_sensor_ch2">N.A.</td>
+    </tr>
+    <tr>
+      <td>Channel 2 Sequence:</td>
+      <td id="ch2_seq">N.A.</td>
+    </tr>
+    <tr>
+      <td>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>Temperature Sensor Channel 3:</td>
+      <td id="temp_sensor_ch3">N.A.</td>
+    </tr>
+    <tr>
+      <td>Channel 3 Sequence:</td>
+      <td id="ch3_seq">N.A.</td>
+    </tr>
+    <tr>
+      <td>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>Temperature Sensor Channel 4:</td>
+      <td id="temp_sensor_ch4">N.A.</td>
+    </tr>
+    <tr>
+      <td>Channel 4 Sequence:</td>
+      <td id="ch4_seq">N.A.</td>
+    </tr>
+    <tr>
+      <td>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>Temperature Sensor Channel 5:</td>
+      <td id="temp_sensor_ch5">N.A.</td>
+    </tr>
+    <tr>
+      <td>Channel 5 Sequence:</td>
+      <td id="ch5_seq">N.A.</td>
+    </tr>
+    <tr>
+      <td>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>Accelerometer X Reading:</td>
+      <td id="accelerometer_x">N.A.</td>
+    </tr>
+    <tr>
+      <td>Accelerometer Y Reading:</td>
+      <td id="accelerometer_y">N.A.</td>
+    </tr>
+    <tr>
+      <td>Accelerometer Z Reading:</td>
+      <td id="accelerometer_z">N.A.</td>
+    </tr>
+    <tr>
+      <td>Buzzer Status:</td>
+      <td id="buzzer_status">N.A.</td>
+    </tr>
+    <tr>
+      <td>Battery Voltage:</td>
+      <td id="battery_voltage">N.A.</td>
+    </tr>
+    <tr>
+      <td>Sequence Status:</td>
+      <td id="seq_status">N.A.</td>
+    </tr>
+  </table>
+  <h2>Manual button control</h2>
+  <div class="Relay-btn-group" style="width: 50%; display: block">
+    <button id="Relay1" onclick="Relay1Toggle()" style="width: 40%">
+      Buzzer Test [R1]
+    </button>
+  </div>
+  <div class="chart-container">
+    <canvas id="temperatureChart1" class="chart-canvas"></canvas>
+    <canvas id="temperatureChart2" class="chart-canvas"></canvas>
+  </div>
+  <button id="ClearChartData" onclick="clearChartData()" style="width: 40%">
+    Clear Chart Data (localStorage)
+  </button>
+</body>

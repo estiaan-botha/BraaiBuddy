@@ -1,0 +1,106 @@
+Change Component Designator: OldDesignator=R21 NewDesignator=R23
+Change Component Designator: OldDesignator=R22 NewDesignator=R24
+Change Component Designator: OldDesignator=R23 NewDesignator=R21
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R26 NewDesignator=R31
+Change Component Designator: OldDesignator=R27 NewDesignator=R32
+Change Component Designator: OldDesignator=R28.1 NewDesignator=R33.1
+Change Component Designator: OldDesignator=R28.2 NewDesignator=R33.2
+Change Component Designator: OldDesignator=R28.3 NewDesignator=R33.3
+Change Component Designator: OldDesignator=R28.4 NewDesignator=R33.4
+Change Component Designator: OldDesignator=R28.5 NewDesignator=R33.5
+Change Component Designator: OldDesignator=R29.1 NewDesignator=R34.1
+Change Component Designator: OldDesignator=R29.2 NewDesignator=R34.2
+Change Component Designator: OldDesignator=R29.3 NewDesignator=R34.3
+Change Component Designator: OldDesignator=R29.4 NewDesignator=R34.4
+Change Component Designator: OldDesignator=R29.5 NewDesignator=R34.5
+Change component parameters: Designator = "BZ1" ("BZ1"); Footprint = "3XDCR_PS1240P02CT3"; UniqueID = "\MGISJPLM\WZIKXTZK" ("\MGISJPLM\WZIKXTZK")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "PS1240P02CT3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SIP-5 TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PS1240P02CT3/TDK/view-part/293543/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "ESP32C6MINI1H8"; UniqueID = "\CHZBZPDI\LLYSFVIJ" ("\CHZBZPDI\LLYSFVIJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/catalog/specsheets/Espressif_Systems_esp32-c6-mini-1_mini-1u_datasheet_en.pdf?_gl=1*bh7a6p*_gcl_aw*R0NMLjE3Mzk0MzM2MTQuQ2p3S0NBaUFxckc5QmhBVkVpd0FhUHU1emlsTWRuRXdaa2Fsd2VWNEN5MzNjMjVBX1BkRDhocTJZbnRtek0tckw4Q0pVVXJTcmNRbGdob0NCcXNRQXZEX0J3RQ..*_gcl_au*NzczNTE0OTU0LjE3MzMzMDQzMDk.*_ga*MjEzMDEzNzc2Mi4xNzMzMzA0NDkw*_ga_15W4STQT4T*MTc0MDY0OTU5Mi41MS4xLjE3NDA2NDk2MTQuMzguMC4w"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ESP32-C6-MINI-1-H8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PROD_ID"; Value = "IC-19033"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "ESP32-C6-MINI-1"; VariantName = "[No Variations]"
+Added Component: Designator=R26(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0805-fx-1002elf/bourns?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0805FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R27(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0805-fx-1002elf/bourns?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0805FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R28(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0805-fx-1002elf/bourns?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0805FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R29(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0805-fx-1002elf/bourns?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0805FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R30(RESC2012X60N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/cr0805-fx-1002elf/bourns?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.bourns.com/pdfs/chpreztr.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-CR0805FX-1002ELF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=R26-1
+Added Pin To Net: NetName=SD_CMD Pin=R26-2
+Added Pin To Net: NetName=3.3V Pin=R27-1
+Added Pin To Net: NetName=SD_D0 Pin=R27-2
+Added Pin To Net: NetName=3.3V Pin=R28-1
+Added Pin To Net: NetName=SD_D1 Pin=R28-2
+Added Pin To Net: NetName=3.3V Pin=R29-1
+Added Pin To Net: NetName=SD_D2 Pin=R29-2
+Added Pin To Net: NetName=3.3V Pin=R30-1
+Added Pin To Net: NetName=SD_CD Pin=R30-2
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetR21_1
+Added Member To Class: ClassName=Microcontroller Member=Component R28 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R29 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R30 10k
+Added Member To Class: ClassName=Microcontroller Member=Component R31 5.1k
+Added Member To Class: ClassName=Microcontroller Member=Component R32 5.1k

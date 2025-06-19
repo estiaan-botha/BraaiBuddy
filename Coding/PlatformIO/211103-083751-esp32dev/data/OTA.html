@@ -1,0 +1,25 @@
+<body>
+  <link rel="stylesheet" type= "text/CSS"
+  href="style.css">
+    <br>
+    <br>
+    <br>
+    <br>
+<h1 style="text-align:center" >Firmware update </h1>
+<br>
+<form onsubmit="alert('Starting update') || checkForm(this);" style="text-align:center" method='POST' action='/doUpdate' enctype='multipart/form-data'>
+    <input type='file' name='update'>
+    <input name="myButton" type='submit' value='Update' >
+</form>
+</body>
+
+<script type="text/javascript">
+
+function checkForm(form)
+  {
+    form.myButton.disabled = true;
+    form.myButton.value = "Please wait...";
+    return true;
+  }
+  
+  </script>

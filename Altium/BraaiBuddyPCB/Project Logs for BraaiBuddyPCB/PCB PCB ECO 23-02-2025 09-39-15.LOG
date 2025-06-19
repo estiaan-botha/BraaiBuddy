@@ -1,0 +1,18 @@
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=R? NewDesignator=R28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Add Component: Footprint Not Found XDCR_PS1240P02CT3
+Add Pin To Net: Unknown Pin: Pin BZ-1
+Add Pin To Net: Unknown Pin: Pin BZ-2
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=NetQ?_B New Net Name=NetQ2_B
+Add Class Member: Failed to add class member : Component BZ Buzzer
+Added Member To Class: ClassName=HMI Member=Component R29 1k

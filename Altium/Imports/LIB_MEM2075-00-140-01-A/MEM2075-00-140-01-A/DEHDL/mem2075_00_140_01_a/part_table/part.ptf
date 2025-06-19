@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MEM2075_00_140_01_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "GCT (GLOBAL CONNECTOR TECHNOLOGY)", "MEM2075-00-140-01-A" (!) = "", "MEM20750014001A", "Other", "640-MEM20750014001A", "https://www.mouser.co.uk/ProductDetail/GCT/MEM2075-00-140-01-A?qs=KUoIvG%2F9IlZvfWpeERlq3Q%3D%3D", "GCT (GLOBAL CONNECTOR TECHNOLOGY) - MEM2075-00-140-01-A - MICRO SD CARD CONN, PUSH-PUSH, 9POS, SMT", "", "1.45 mm"
+END_PART
+
+END.

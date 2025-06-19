@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP9600_E_MX'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP9600-E/MX" (!) = "", "QFN65P500X500X100-21N-D", "Quad Flat No-Lead", "579-MCP9600-E/MX", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9600-E-MX?qs=ZEMkBHnybREkP7PCRsOOMQ%3D%3D", "Board Mount Temperature Sensors Thermocouple to I2C converter", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf", "1 mm"
+END_PART
+
+END.

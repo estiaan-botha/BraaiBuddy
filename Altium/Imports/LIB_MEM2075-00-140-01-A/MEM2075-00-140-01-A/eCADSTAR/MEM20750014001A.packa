@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MEM2075-00-140-01-A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-09-27-15:31:21)
+    (mountForm default
+        (footprintRef "MEM20750014001A")
+        (spec "System")
+    )
+)

@@ -1,0 +1,134 @@
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Component Designator: OldDesignator=S? NewDesignator=S3
+Add Component: Footprint Not Found LIS3DHTR
+Add Component: Footprint Not Found CAPC2012X94N
+Add Component: Footprint Not Found CAPC2012X135N
+Added Component: Designator=C10(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "187-CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LYM676Q2S126Z
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X50N
+Added Component: Designator=TP5(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "IO16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "IO17"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "IO14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "IO15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=3.3V Pin=C10-2
+Add Pin To Net: Unknown Pin: Pin LED3-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R16-1
+Add Pin To Net: Unknown Pin: Pin R19-1
+Add Pin To Net: Unknown Pin: Pin TP3-TP
+Add Pin To Net: Unknown Pin: Pin TP4-TP
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Pin To Net: NetName=IO6/SDA Pin=U1-15
+Added Net: Name=IO6/SDA
+Added Pin To Net: NetName=IO7/SCL Pin=U1-16
+Added Net: Name=IO7/SCL
+Added Pin To Net: NetName=IO14 Pin=U1-19
+Added Net: Name=IO14
+Added Pin To Net: NetName=IO15 Pin=U1-20
+Added Net: Name=IO15
+Added Pin To Net: NetName=IO16 Pin=U1-31
+Added Net: Name=IO16
+Added Pin To Net: NetName=IO17 Pin=U1-30
+Added Net: Name=IO17
+Added Net: Name=NetLED3_1
+Added Net: Name=NetR12_2
+Added Net: Name=NetR15_2
+Added Net: Name=NetR16_2
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Add Class Member: Failed to add class member : Component C7 100nF
+Add Class Member: Failed to add class member : Component C8 2.2uF
+Added Member To Class: ClassName=Accelerometer Interface Member=Component C10 10uF
+Add Class Member: Failed to add class member : Component LED3 LED YELLOW 0805 SMD
+Add Class Member: Failed to add class member : Component R10 100k
+Add Class Member: Failed to add class member : Component R12 1k
+Add Class Member: Failed to add class member : Component R13 200k
+Add Class Member: Failed to add class member : Component R14 200k
+Add Class Member: Failed to add class member : Component R15 1k
+Add Class Member: Failed to add class member : Component R16 1k
+Add Class Member: Failed to add class member : Component R19 4.7K
+Added Member To Class: ClassName=Microcontroller Member=Component TP5 IO16
+Added Member To Class: ClassName=Microcontroller Member=Component TP6 IO17
+Added Member To Class: ClassName=Microcontroller Member=Component TP7 IO14
+Added Member To Class: ClassName=Microcontroller Member=Component TP8 IO15

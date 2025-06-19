@@ -1,0 +1,390 @@
+Change Component DesignItemId : Designator=C1 Old DesignItemId=CAP CER 2u2F 0805 SMD New DesignItemId=CAP CER 10uF 0805 SMD
+Change Component DesignItemId : Designator=C2 Old DesignItemId=CAP CER 2u2F 0805 SMD New DesignItemId=CAP CER 10uF 0805 SMD
+Change Component DesignItemId : Designator=S2 Old DesignItemId=TS02-66-43-BK-100-LCR-D New DesignItemId=BUTT PUSH N/O SPST THP 50mA
+Change Component DesignItemId : Designator=S3 Old DesignItemId=TS02-66-43-BK-100-LCR-D New DesignItemId=BUTT PUSH N/O SPST THP 50mA
+Change Component DesignItemId : Designator=J2 Old DesignItemId=UJ20-C-H-G-MSMT-2-P16-TR New DesignItemId=CONN USB-C 2.0 16 CONTACT 5A 42V SMD
+Change Component Footprint: Designator=C1 Old Footprint=CAPC2012X135N New Footprint=CAPC2012X94N
+Change Component Footprint: Designator=C2 Old Footprint=CAPC2012X135N New Footprint=CAPC2012X94N
+Change Component Comment : Designator=TP5 Old Comment=* New Comment=
+Change Component Comment : Designator=TP6 Old Comment=* New Comment=
+Change Component Comment : Designator=TP8 Old Comment=* New Comment=
+Change Component Comment : Designator=TP9 Old Comment=* New Comment=
+Change Component Comment : Designator=TP11.1 Old Comment=* New Comment=
+Change Component Comment : Designator=TP11.2 Old Comment=* New Comment=
+Change Component Comment : Designator=TP11.3 Old Comment=* New Comment=
+Change Component Comment : Designator=TP11.4 Old Comment=* New Comment=
+Change Component Comment : Designator=TP11.5 Old Comment=* New Comment=
+Change Component Comment : Designator=TP12.1 Old Comment=* New Comment=
+Change Component Comment : Designator=TP12.2 Old Comment=* New Comment=
+Change Component Comment : Designator=TP12.3 Old Comment=* New Comment=
+Change Component Comment : Designator=TP12.4 Old Comment=* New Comment=
+Change Component Comment : Designator=TP12.5 Old Comment=* New Comment=
+Change Component Comment : Designator=TP13.1 Old Comment=* New Comment=
+Change Component Comment : Designator=TP13.2 Old Comment=* New Comment=
+Change Component Comment : Designator=TP13.3 Old Comment=* New Comment=
+Change Component Comment : Designator=TP13.4 Old Comment=* New Comment=
+Change Component Comment : Designator=TP13.5 Old Comment=* New Comment=
+Change Component Comment : Designator=TP14.1 Old Comment=* New Comment=
+Change Component Comment : Designator=TP14.2 Old Comment=* New Comment=
+Change Component Comment : Designator=TP14.3 Old Comment=* New Comment=
+Change Component Comment : Designator=TP14.4 Old Comment=* New Comment=
+Change Component Comment : Designator=TP14.5 Old Comment=* New Comment=
+Change Component Comment : Designator=C1 Old Comment=2.2uF New Comment=10uF
+Change Component Comment : Designator=C2 Old Comment=2.2uF New Comment=10uF
+Change Component Comment : Designator=S2 Old Comment=SPST-NO New Comment=BUTT PUSH N/O SPST THP 50mA
+Change Component Comment : Designator=S3 Old Comment=SPST-NO New Comment=BUTT PUSH N/O SPST THP 50mA
+Change Component Comment : Designator=J2 Old Comment=UJ20-C-H-G-MSMT-2-P16-TR New Comment=CONN USB-C 2.0 16 CONTACT 5A 42V SMD
+Change Component Description : Designator=J2 Old Description= New Description=USB Connectors Type C,2.0, Horizontal, Gold plated 3u, Mid Surface Mount 1.0mm, 16 pin, T&R
+Change Component Description : Designator=TP5 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP6 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP8 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP9 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP11.1 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP11.2 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP11.3 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP11.4 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP11.5 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP12.1 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP12.2 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP12.3 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP12.4 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP12.5 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP13.1 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP13.2 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP13.3 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP13.4 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP13.5 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP14.1 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP14.2 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP14.3 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP14.4 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Description : Designator=TP14.5 Old Description=Resistor New Description=TP 1.5mm PAD
+Change Component Kind : Designator=TP13.2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP13.3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP13.4 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP12.4 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP12.5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP13.1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP14.3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP14.4 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP14.5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP13.5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP14.1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP14.2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP9 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP11.1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP11.2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP6 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP8 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP12.1 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP12.2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP12.3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP11.3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP11.4 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=TP11.5 Old Kind=Standard New Kind=Standard (No BOM)
+Change component parameters: Designator = "AC1" ("AC1"); Footprint = "LIS3DHTR"; UniqueID = "\CTMWEYKU\SQAGHKPK" ("\CTMWEYKU\SQAGHKPK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/389/lis3dh-1849589.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LIS3DHTR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "BZ1" ("BZ1"); Footprint = "3XDCR_PS1240P02CT3"; UniqueID = "\MGISJPLM\WZIKXTZK" ("\MGISJPLM\WZIKXTZK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PS1240P02CT3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAPC2012X135N"; UniqueID = "\RRTRRDMI\LZMCMJSW" ("\RRTRRDMI\LZMCMJSW")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CAPC2012X135N"; UniqueID = "\RRTRRDMI\TULQNVCA" ("\RRTRRDMI\TULQNVCA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAPC2012X135N"; UniqueID = "\RRTRRDMI\ODLXEMJF" ("\RRTRRDMI\ODLXEMJF")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4" ("C4"); Footprint = "CAPC2012X135N"; UniqueID = "\RRTRRDMI\WRQKIMVP" ("\RRTRRDMI\WRQKIMVP")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "CAPC2012X94N"; UniqueID = "\CTMWEYKU\VNHWTCDD" ("\CTMWEYKU\VNHWTCDD")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAPC2012X94N"; UniqueID = "\CTMWEYKU\SHRBDHCH" ("\CTMWEYKU\SHRBDHCH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "CAPC2012X94N"; UniqueID = "\CHZBZPDI\ANURMTHZ" ("\CHZBZPDI\ANURMTHZ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "CAPC2012X94N"; UniqueID = "\CHZBZPDI\TNZHVHSH" ("\CHZBZPDI\TNZHVHSH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "CAPC2012X135N"; UniqueID = "\CHZBZPDI\RYOAPLRH" ("\CHZBZPDI\RYOAPLRH")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LMK212BJ225MG-T"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "CAPC2012X94N"; UniqueID = "\CHZBZPDI\SBMRUFTO" ("\CHZBZPDI\SBMRUFTO")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11.1" ("C11"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\CCPDXZRG\ADEJXEHH" ("\ETLJRAYN\CCPDXZRG\ADEJXEHH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11.2" ("C11"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\BCSGPIJT\ADEJXEHH" ("\ETLJRAYN\BCSGPIJT\ADEJXEHH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11.3" ("C11"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\JQROSKKK\ADEJXEHH" ("\ETLJRAYN\JQROSKKK\ADEJXEHH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11.4" ("C11"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\JGPVGMAJ\ADEJXEHH" ("\ETLJRAYN\JGPVGMAJ\ADEJXEHH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11.5" ("C11"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\BJKIJVYK\ADEJXEHH" ("\ETLJRAYN\BJKIJVYK\ADEJXEHH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12.1" ("C12"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\CCPDXZRG\EOGJDAKK" ("\ETLJRAYN\CCPDXZRG\EOGJDAKK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12.2" ("C12"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\BCSGPIJT\EOGJDAKK" ("\ETLJRAYN\BCSGPIJT\EOGJDAKK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12.3" ("C12"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\JQROSKKK\EOGJDAKK" ("\ETLJRAYN\JQROSKKK\EOGJDAKK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12.4" ("C12"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\JGPVGMAJ\EOGJDAKK" ("\ETLJRAYN\JGPVGMAJ\EOGJDAKK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12.5" ("C12"); Footprint = "CAPC2012X94N"; UniqueID = "\ETLJRAYN\BJKIJVYK\EOGJDAKK" ("\ETLJRAYN\BJKIJVYK\EOGJDAKK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13" ("C13"); Footprint = "CAPC2012X94N"; UniqueID = "\CHZBZPDI\CPTXZBWQ" ("\CHZBZPDI\CPTXZBWQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CAPC2012X94N"; UniqueID = "\CHZBZPDI\PZRLCQOT" ("\CHZBZPDI\PZRLCQOT")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/X7RDielectric.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "08055C104KAZ2A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CONN1" ("CONN1"); Footprint = "AM-K PCB XE-1139-001"; UniqueID = "\ETLJRAYN\GVDWKUNS" ("\ETLJRAYN\GVDWKUNS")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6465/XE-1139-001.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XE-1139-001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CONN2" ("CONN2"); Footprint = "AM-K PCB XE-1139-001"; UniqueID = "\ETLJRAYN\IOSHINXX" ("\ETLJRAYN\IOSHINXX")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6465/XE-1139-001.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XE-1139-001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CONN3" ("CONN3"); Footprint = "AM-K PCB XE-1139-001"; UniqueID = "\ETLJRAYN\WEWFRAMS" ("\ETLJRAYN\WEWFRAMS")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6465/XE-1139-001.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XE-1139-001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CONN4" ("CONN4"); Footprint = "AM-K PCB XE-1139-001"; UniqueID = "\ETLJRAYN\COYEYXYG" ("\ETLJRAYN\COYEYXYG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6465/XE-1139-001.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XE-1139-001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters: Designator = "CONN5" ("CONN5"); Footprint = "AM-K PCB XE-1139-001"; UniqueID = "\ETLJRAYN\DDTVMREF" ("\ETLJRAYN\DDTVMREF")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6465/XE-1139-001.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "XE-1139-001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1" ("D1"); Footprint = "SOD2512X113N"; UniqueID = "\RRTRRDMI\HPSRBZQI" ("\RRTRRDMI\HPSRBZQI")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/resource/technical/document/datasheet/CD00012201.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BAT20JFILM"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC1" ("IC1"); Footprint = "SOT95P270X145-5N"; UniqueID = "\RRTRRDMI\KEYPJUEC" ("\RRTRRDMI\KEYPJUEC")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP73831T-2ACI/OT"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC2" ("IC2"); Footprint = "SON65P300X300X100-9N-D"; UniqueID = "\RRTRRDMI\BRWATEIG" ("\RRTRRDMI\BRWATEIG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/gpn/TPS785-Q1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS78501QWDRBRQ1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1" ("J1"); Footprint = "1769"; UniqueID = "\RRTRRDMI\LPAANYQC" ("\RRTRRDMI\LPAANYQC")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J2" ("J2"); Footprint = "CUI_UJ20-C-H-G-SMT-TR"; UniqueID = "\CHZBZPDI\BLPTRSLP" ("\CHZBZPDI\BLPTRSLP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/1628/uj20_c_h_g_msmt_2_p16_tr-3511178.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UJ20-C-H-G-MSMT-2-P16-TR"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J3" ("J3"); Footprint = "GCT_MEM2075-00-140-01-A"; UniqueID = "\CHZBZPDI\FLDPRROJ" ("\CHZBZPDI\FLDPRROJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/837/MEM2075-2887971.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MEM2075-00-140-01-A"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED1" ("LED1"); Footprint = "LYM676Q2S126Z"; UniqueID = "\RRTRRDMI\DLOOSRSB" ("\RRTRRDMI\DLOOSRSB")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/588/Osram_7222021_LY__M676_EN-2891431.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LY M676-Q2S1-26-Z"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED2" ("LED2"); Footprint = "LYM676Q2S126Z"; UniqueID = "\MGISJPLM\PKQABHEX" ("\MGISJPLM\PKQABHEX")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/588/Osram_7222021_LY__M676_EN-2891431.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LY M676-Q2S1-26-Z"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED3" ("LED3"); Footprint = "LED THP Dialight 521-8559F"; UniqueID = "\MGISJPLM\FPPNMIZA" ("\MGISJPLM\FPPNMIZA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/109/C18455B-1843429.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "521-8559F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "SOT96P240X115-3N"; UniqueID = "\RRTRRDMI\VLGEOEMU" ("\RRTRRDMI\VLGEOEMU")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "DMG2305UX-7"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "SOT95P230X110-3N"; UniqueID = "\MGISJPLM\SIOSDKFF" ("\MGISJPLM\SIOSDKFF")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MMBT3904"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RESC2012X70N"; UniqueID = "\RRTRRDMI\MWOMWBHW" ("\RRTRRDMI\MWOMWBHW")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-PB6B2201V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESC2012X50N"; UniqueID = "\RRTRRDMI\JFRSHLTF" ("\RRTRRDMI\JFRSHLTF")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW08054K70FKEA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC2012X50N"; UniqueID = "\RRTRRDMI\YRLFNKGV" ("\RRTRRDMI\YRLFNKGV")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC2012X60N"; UniqueID = "\RRTRRDMI\OANVYFOR" ("\RRTRRDMI\OANVYFOR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5" ("R5"); Footprint = "ERJ6ENF1000V"; UniqueID = "\RRTRRDMI\MURWIJTD" ("\RRTRRDMI\MURWIJTD")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-6ENF3573V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\JEHJYIMG" ("\ETLJRAYN\JEHJYIMG")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-2203ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "RESC2012X50N"; UniqueID = "\ETLJRAYN\ZKHITDJW" ("\ETLJRAYN\ZKHITDJW")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\BFXDLVMZ" ("\ETLJRAYN\BFXDLVMZ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805FR-0776K8L"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9" ("R9"); Footprint = "RESC2012X50N"; UniqueID = "\ETLJRAYN\CUBZTPCB" ("\ETLJRAYN\CUBZTPCB")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\RGWVVVZF" ("\ETLJRAYN\RGWVVVZF")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805FR-0723K2L"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "RESC2012X50N"; UniqueID = "\ETLJRAYN\FWTGVNEN" ("\ETLJRAYN\FWTGVNEN")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "RESC2012X60N"; UniqueID = "\CTMWEYKU\FVQTQMVP" ("\CTMWEYKU\FVQTQMVP")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13" ("R13"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\WKSNKDYN" ("\MGISJPLM\WKSNKDYN")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-071KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14" ("R14"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\KQNWQUSD" ("\MGISJPLM\KQNWQUSD")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-071KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R15" ("R15"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\OODMREFX" ("\MGISJPLM\OODMREFX")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-071KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\NBLAEBMS" ("\MGISJPLM\NBLAEBMS")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17" ("R17"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\VHGDOXOX" ("\MGISJPLM\VHGDOXOX")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-071KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18" ("R18"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\RIAPDEWW" ("\MGISJPLM\RIAPDEWW")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "RESC2012X50N"; UniqueID = "\MGISJPLM\AXZSHWHP" ("\MGISJPLM\AXZSHWHP")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW08054K70FKEA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20" ("R20"); Footprint = "RESC2012X60N"; UniqueID = "\MGISJPLM\AEBWFDPX" ("\MGISJPLM\AEBWFDPX")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-071KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "RESC2012X50N"; UniqueID = "\CHZBZPDI\MYCRHQXD" ("\CHZBZPDI\MYCRHQXD")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22" ("R22"); Footprint = "RESC2012X50N"; UniqueID = "\CHZBZPDI\RKVNLBON" ("\CHZBZPDI\RKVNLBON")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23" ("R23"); Footprint = "RESC2012X70N"; UniqueID = "\CHZBZPDI\NYDYPNUH" ("\CHZBZPDI\NYDYPNUH")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-PB6B2201V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24" ("R24"); Footprint = "RESC2012X70N"; UniqueID = "\CHZBZPDI\VURFNIDW" ("\CHZBZPDI\VURFNIDW")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ERJ-PB6B2201V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "RESC2012X50N"; UniqueID = "\CHZBZPDI\YQXGYNVJ" ("\CHZBZPDI\YQXGYNVJ")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26" ("R26"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\FDMXIGDO" ("\CHZBZPDI\FDMXIGDO")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27" ("R27"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\AVBVCWZS" ("\CHZBZPDI\AVBVCWZS")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28" ("R28"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\PDKALHIR" ("\CHZBZPDI\PDKALHIR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\NJJXLKAG" ("\CHZBZPDI\NJJXLKAG")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30" ("R30"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\PCBQKHSM" ("\CHZBZPDI\PCBQKHSM")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CR0805-FX-1002ELF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31" ("R31"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\JLEQBEJY" ("\CHZBZPDI\JLEQBEJY")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-075K1L"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32" ("R32"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\TBBBBZFH" ("\CHZBZPDI\TBBBBZFH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "RC0805JR-075K1L"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33.1" ("R33"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\CCPDXZRG\RWSRIINR" ("\ETLJRAYN\CCPDXZRG\RWSRIINR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33.2" ("R33"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\BCSGPIJT\RWSRIINR" ("\ETLJRAYN\BCSGPIJT\RWSRIINR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33.3" ("R33"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\JQROSKKK\RWSRIINR" ("\ETLJRAYN\JQROSKKK\RWSRIINR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33.4" ("R33"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\JGPVGMAJ\RWSRIINR" ("\ETLJRAYN\JGPVGMAJ\RWSRIINR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33.5" ("R33"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\BJKIJVYK\RWSRIINR" ("\ETLJRAYN\BJKIJVYK\RWSRIINR")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34.1" ("R34"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\CCPDXZRG\CSNLIKPK" ("\ETLJRAYN\CCPDXZRG\CSNLIKPK")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34.2" ("R34"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\BCSGPIJT\CSNLIKPK" ("\ETLJRAYN\BCSGPIJT\CSNLIKPK")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34.3" ("R34"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\JQROSKKK\CSNLIKPK" ("\ETLJRAYN\JQROSKKK\CSNLIKPK")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34.4" ("R34"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\JGPVGMAJ\CSNLIKPK" ("\ETLJRAYN\JGPVGMAJ\CSNLIKPK")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R34.5" ("R34"); Footprint = "RESC2012X60N"; UniqueID = "\ETLJRAYN\BJKIJVYK\CSNLIKPK" ("\ETLJRAYN\BJKIJVYK\CSNLIKPK")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1623096-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S1" ("S1"); Footprint = "SW_500ASSP1M6QE"; UniqueID = "\RRTRRDMI\TOWZZYXC" ("\RRTRRDMI\TOWZZYXC")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "500ASSP1M6QE"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S2" ("S2"); Footprint = "SW_TS02-66-43-BK-100-LCR-D"; UniqueID = "\CHZBZPDI\QKJDHHTT" ("\CHZBZPDI\QKJDHHTT")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TS02-66-43-BK-100-LCR-D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S3" ("S3"); Footprint = "SW_TS02-66-43-BK-100-LCR-D"; UniqueID = "\CHZBZPDI\SQJVNGNO" ("\CHZBZPDI\SQJVNGNO")
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TS02-66-43-BK-100-LCR-D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP5" ("TP5"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\CHZBZPDI\SBWMKYDO" ("\CHZBZPDI\SBWMKYDO")
+Change component parameters: Designator = "TP6" ("TP6"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\CHZBZPDI\BZBIAZPN" ("\CHZBZPDI\BZBIAZPN")
+Change component parameters: Designator = "TP8" ("TP8"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\CHZBZPDI\TCRVDXKJ" ("\CHZBZPDI\TCRVDXKJ")
+Change component parameters: Designator = "TP9" ("TP9"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\CHZBZPDI\HAKAADEQ" ("\CHZBZPDI\HAKAADEQ")
+Change component parameters: Designator = "TP11.1" ("TP11"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\CCPDXZRG\GPIXXBHI" ("\ETLJRAYN\CCPDXZRG\GPIXXBHI")
+Change component parameters: Designator = "TP11.2" ("TP11"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BCSGPIJT\GPIXXBHI" ("\ETLJRAYN\BCSGPIJT\GPIXXBHI")
+Change component parameters: Designator = "TP11.3" ("TP11"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JQROSKKK\GPIXXBHI" ("\ETLJRAYN\JQROSKKK\GPIXXBHI")
+Change component parameters: Designator = "TP11.4" ("TP11"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JGPVGMAJ\GPIXXBHI" ("\ETLJRAYN\JGPVGMAJ\GPIXXBHI")
+Change component parameters: Designator = "TP11.5" ("TP11"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BJKIJVYK\GPIXXBHI" ("\ETLJRAYN\BJKIJVYK\GPIXXBHI")
+Change component parameters: Designator = "TP12.1" ("TP12"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\CCPDXZRG\GGNYZQEF" ("\ETLJRAYN\CCPDXZRG\GGNYZQEF")
+Change component parameters: Designator = "TP12.2" ("TP12"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BCSGPIJT\GGNYZQEF" ("\ETLJRAYN\BCSGPIJT\GGNYZQEF")
+Change component parameters: Designator = "TP12.3" ("TP12"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JQROSKKK\GGNYZQEF" ("\ETLJRAYN\JQROSKKK\GGNYZQEF")
+Change component parameters: Designator = "TP12.4" ("TP12"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JGPVGMAJ\GGNYZQEF" ("\ETLJRAYN\JGPVGMAJ\GGNYZQEF")
+Change component parameters: Designator = "TP12.5" ("TP12"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BJKIJVYK\GGNYZQEF" ("\ETLJRAYN\BJKIJVYK\GGNYZQEF")
+Change component parameters: Designator = "TP13.1" ("TP13"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\CCPDXZRG\NGDLTEVX" ("\ETLJRAYN\CCPDXZRG\NGDLTEVX")
+Change component parameters: Designator = "TP13.2" ("TP13"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BCSGPIJT\NGDLTEVX" ("\ETLJRAYN\BCSGPIJT\NGDLTEVX")
+Change component parameters: Designator = "TP13.3" ("TP13"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JQROSKKK\NGDLTEVX" ("\ETLJRAYN\JQROSKKK\NGDLTEVX")
+Change component parameters: Designator = "TP13.4" ("TP13"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JGPVGMAJ\NGDLTEVX" ("\ETLJRAYN\JGPVGMAJ\NGDLTEVX")
+Change component parameters: Designator = "TP13.5" ("TP13"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BJKIJVYK\NGDLTEVX" ("\ETLJRAYN\BJKIJVYK\NGDLTEVX")
+Change component parameters: Designator = "TP14.1" ("TP14"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\CCPDXZRG\RXKMWIQM" ("\ETLJRAYN\CCPDXZRG\RXKMWIQM")
+Change component parameters: Designator = "TP14.2" ("TP14"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BCSGPIJT\RXKMWIQM" ("\ETLJRAYN\BCSGPIJT\RXKMWIQM")
+Change component parameters: Designator = "TP14.3" ("TP14"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JQROSKKK\RXKMWIQM" ("\ETLJRAYN\JQROSKKK\RXKMWIQM")
+Change component parameters: Designator = "TP14.4" ("TP14"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\JGPVGMAJ\RXKMWIQM" ("\ETLJRAYN\JGPVGMAJ\RXKMWIQM")
+Change component parameters: Designator = "TP14.5" ("TP14"); Footprint = "TP_Pad_TH_1.2P_0.6H"; UniqueID = "\ETLJRAYN\BJKIJVYK\RXKMWIQM" ("\ETLJRAYN\BJKIJVYK\RXKMWIQM")
+Change component parameters: Designator = "U1" ("U1"); Footprint = "ESP32C6MINI1H8"; UniqueID = "\CHZBZPDI\LLYSFVIJ" ("\CHZBZPDI\LLYSFVIJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/catalog/specsheets/Espressif_Systems_esp32-c6-mini-1_mini-1u_datasheet_en.pdf?_gl=1*7278yr*_gcl_aw*R0NMLjE3Mzk0MzM2MTQuQ2p3S0NBaUFxckc5QmhBVkVpd0FhUHU1emlsTWRuRXdaa2Fsd2VWNEN5MzNjMjVBX1BkRDhocTJZbnRtek0tckw4Q0pVVXJTcmNRbGdob0NCcXNRQXZEX0J3RQ..*_gcl_au*ODgyNzE3NTQxLjE3NDEwOTkzMzU.*_ga*MjEzMDEzNzc2Mi4xNzMzMzA0NDkw*_ga_15W4STQT4T*MTc0MTUxNTkxNS42MC4xLjE3NDE1MTgwNDEuMzcuMC4w"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ESP32-C6-MINI-1-H8"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2.1" ("U2"); Footprint = "QFN65P500X500X100-21N"; UniqueID = "\ETLJRAYN\CCPDXZRG\NXJRXYKG" ("\ETLJRAYN\CCPDXZRG\NXJRXYKG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/268/MCP960X_L0X_RL0X_Thermocouple_EMF_to_Temperature_C-3443378.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP9600-E/MX"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2.2" ("U2"); Footprint = "QFN65P500X500X100-21N"; UniqueID = "\ETLJRAYN\BCSGPIJT\NXJRXYKG" ("\ETLJRAYN\BCSGPIJT\NXJRXYKG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/268/MCP960X_L0X_RL0X_Thermocouple_EMF_to_Temperature_C-3443378.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP9600-E/MX"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2.3" ("U2"); Footprint = "QFN65P500X500X100-21N"; UniqueID = "\ETLJRAYN\JQROSKKK\NXJRXYKG" ("\ETLJRAYN\JQROSKKK\NXJRXYKG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/268/MCP960X_L0X_RL0X_Thermocouple_EMF_to_Temperature_C-3443378.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP9600-E/MX"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2.4" ("U2"); Footprint = "QFN65P500X500X100-21N"; UniqueID = "\ETLJRAYN\JGPVGMAJ\NXJRXYKG" ("\ETLJRAYN\JGPVGMAJ\NXJRXYKG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/268/MCP960X_L0X_RL0X_Thermocouple_EMF_to_Temperature_C-3443378.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP9600-E/MX"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2.5" ("U2"); Footprint = "QFN65P500X500X100-21N"; UniqueID = "\ETLJRAYN\BJKIJVYK\NXJRXYKG" ("\ETLJRAYN\BJKIJVYK\NXJRXYKG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/268/MCP960X_L0X_RL0X_Thermocouple_EMF_to_Temperature_C-3443378.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MCP9600-E/MX"; VariantName = "[No Variations]"
+Change Net Color : Old Net Color=RGB(255, 153, 51) New Net Color=RGB(255, 153, 51)
+Change Net Color : Old Net Color=RGB(0, 204, 0) New Net Color=RGB(0, 204, 0)

@@ -1,0 +1,19 @@
+Importer Log Report
+Project : Adafruit MCP9600.PrjPcb
+
+Section : Analyze Document - C:\Users\pdreyer\Desktop\Personal Docs\Estiaan Skripsie\Altium\Imports\Adafruit MCP9600.sch
+    Analyzing data of C:\Users\pdreyer\Desktop\Personal Docs\Estiaan Skripsie\Altium\Imports\Adafruit MCP9600.sch
+    Load settings
+    Load layers 160
+    Load schematic
+    Load Libraries 1
+    Load Library "microbuilder"
+    Load Packages 42
+    Load Symbols 13
+    Load DeviceSets 12
+    Load Attributes 4
+    Load Classes 1
+    Load Parts 33
+    Load Sheets 1
+    ERROR: Unhandled type <errors>
+EndSection

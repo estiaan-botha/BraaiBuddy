@@ -1,0 +1,106 @@
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Add Component: Footprint Not Found LIS3DHTR
+Add Component: Footprint Not Found TACTILE_SWITCH_SMD_4.6X2.8MM
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found SMT-JUMPER_3_2-NC_TRACE_SILK
+Add Component: Footprint Not Found UJ20CVGSMTP16TR65
+Add Component: Footprint Not Found USB-C-16P_4LAYER-PADS
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found TACTILE_SWITCH_SMD_4.6X2.8MM
+Add Component: Footprint Not Found SMT-JUMPER_2_NC_TRACE_SILK
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Add Component: Footprint Not Found PAD.03X.03
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-4
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Add Pin To Net: Unknown Pin: Pin BOOT?-1
+Add Pin To Net: Unknown Pin: Pin BOOT?-2
+Add Pin To Net: Unknown Pin: Pin BOOT?-3
+Add Pin To Net: Unknown Pin: Pin BOOT?-4
+Add Pin To Net: Unknown Pin: Pin C?-1
+Add Pin To Net: Unknown Pin: Pin C?-2
+Add Pin To Net: Unknown Pin: Pin D2-A
+Add Pin To Net: Unknown Pin: Pin D2-C
+Add Pin To Net: Unknown Pin: Pin D3-A
+Add Pin To Net: Unknown Pin: Pin D3-C
+Add Pin To Net: Unknown Pin: Pin I?-1
+Add Pin To Net: Unknown Pin: Pin I?-2
+Add Pin To Net: Unknown Pin: Pin I?-3
+Add Pin To Net: Unknown Pin: Pin J3-A1_B12
+Add Pin To Net: Unknown Pin: Pin J3-B1_A12
+Add Pin To Net: Unknown Pin: Pin J?-2
+Add Pin To Net: Unknown Pin: Pin J?-A5
+Add Pin To Net: Unknown Pin: Pin J?-A6
+Add Pin To Net: Unknown Pin: Pin J?-A7
+Add Pin To Net: Unknown Pin: Pin J?-B5
+Add Pin To Net: Unknown Pin: Pin J?-B6
+Add Pin To Net: Unknown Pin: Pin J?-B7
+Add Pin To Net: Unknown Pin: Pin J?-GND2
+Add Pin To Net: Unknown Pin: Pin J?-GND
+Add Pin To Net: Unknown Pin: Pin J?-SHLD1-4
+Add Pin To Net: Unknown Pin: Pin J?-VBUS1
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R15-2
+Add Pin To Net: Unknown Pin: Pin R16-1
+Add Pin To Net: Unknown Pin: Pin R16-2
+Add Pin To Net: Unknown Pin: Pin RESET?-1
+Add Pin To Net: Unknown Pin: Pin RESET?-2
+Add Pin To Net: Unknown Pin: Pin RESET?-3
+Add Pin To Net: Unknown Pin: Pin RESET?-4
+Add Pin To Net: Unknown Pin: Pin SHLD?-1
+Add Pin To Net: Unknown Pin: Pin SHLD?-2
+Add Pin To Net: Unknown Pin: Pin TP?-1
+Add Pin To Net: Unknown Pin: Pin TP?-1
+Add Pin To Net: Unknown Pin: Pin TP?-1
+Add Pin To Net: Unknown Pin: Pin TP?-1
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Add Class Member: Failed to add class member : Component BOOT? MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM
+Add Class Member: Failed to add class member : Component C? DNP
+Add Class Member: Failed to add class member : Component D2 LED-RED_0603-KB
+Add Class Member: Failed to add class member : Component D3 BLUE
+Add Class Member: Failed to add class member : Component I? JUMPER-SMT_3_2-NC_TRACE_SILK
+Add Class Member: Failed to add class member : Component J2 UJ20-C-V-G-SMT-P16-TR-65
+Add Class Member: Failed to add class member : Component J? USB Female Type C Connector
+Add Class Member: Failed to add class member : Component R10 100k
+Add Class Member: Failed to add class member : Component R13 1M
+Add Class Member: Failed to add class member : Component R14 1M
+Add Class Member: Failed to add class member : Component R15 4.7k
+Add Class Member: Failed to add class member : Component R16 2.2k
+Added Member To Class: ClassName=Microcontroller Member=Component R? 5.1k
+Add Class Member: Failed to add class member : Component RESET? MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM
+Add Class Member: Failed to add class member : Component SHLD? JUMPER-SMT_2_NC_TRACE_SILK
+Add Class Member: Failed to add class member : Component TP? TEST-POINT3
+Add Class Member: Failed to add class member : Component TP? TEST-POINT3
+Add Class Member: Failed to add class member : Component TP? TEST-POINT3
+Add Class Member: Failed to add class member : Component TP? TEST-POINT3

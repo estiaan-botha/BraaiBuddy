@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP9600-E_MX"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-07-11:34:26)
+    (mountForm default
+        (footprintRef "QFN65P500X500X100-21N-D")
+        (spec "System")
+    )
+)

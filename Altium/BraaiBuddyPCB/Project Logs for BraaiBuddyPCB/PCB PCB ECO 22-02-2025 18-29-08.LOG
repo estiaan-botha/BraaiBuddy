@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=3.3V Pin=IC2-1
+Removed Pin From Net: NetName=3.3V Pin=R6-2
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Add Component: Footprint Not Found LIS3DHTR
+Add Component: Footprint Not Found CAPC2012X94N
+Add Component: Footprint Not Found CAPC2012X135N
+Added Component: Designator=C9(CAPC2012X94N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.za/datasheet/2/585/MLCC-1837944.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "187-CL21A106KOQNNNE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LED-0603
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Added Component: Designator=S?(SW_500ASSP1M6QE)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "500ASSP1M6QE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-4
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Added Pin To Net: NetName=3.3V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Add Pin To Net: Unknown Pin: Pin D2-A
+Add Pin To Net: Unknown Pin: Pin D2-C
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R15-2
+Added Pin To Net: NetName=3.3V Pin=S?-3
+Add Pin To Net: Unknown Pin: Pin TP1-TP
+Add Pin To Net: Unknown Pin: Pin TP2-TP
+Add Pin To Net: Unknown Pin: Pin TP3-TP
+Add Pin To Net: Unknown Pin: Pin TP4-TP
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Pin To Net: NetName=NetIC2_1 Pin=IC2-1
+Added Pin To Net: NetName=NetIC2_1 Pin=R6-2
+Added Pin To Net: NetName=NetIC2_1 Pin=S?-2
+Added Net: Name=NetIC2_1
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Add Class Member: Failed to add class member : Component C7 100nF
+Add Class Member: Failed to add class member : Component C8 2.2uF
+Added Member To Class: ClassName=Microcontroller Member=Component C9 10uF
+Add Class Member: Failed to add class member : Component D2 LED-RED_0603-KB
+Add Class Member: Failed to add class member : Component R10 100k
+Add Class Member: Failed to add class member : Component R13 1M
+Add Class Member: Failed to add class member : Component R14 1M
+Add Class Member: Failed to add class member : Component R15 4.7k
+Added Member To Class: ClassName=Microcontroller Member=Component R17 5.1k
+Added Member To Class: ClassName=Power Management Member=Component S? SWITCH SPDT 3A 120V

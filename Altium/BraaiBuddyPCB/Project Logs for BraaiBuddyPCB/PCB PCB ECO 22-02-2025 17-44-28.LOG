@@ -1,0 +1,235 @@
+Removed Pin From Net: NetName=GND Pin=R11-1
+Removed Pin From Net: NetName=GND Pin=R12-1
+Removed Pin From Net: NetName=NetR2_1 Pin=U1-15
+Removed Pin From Net: NetName=NetR3_2 Pin=U1-16
+Removed Member From Class: ClassName=Microcontroller Member=R12
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Component Comment : Designator=R11 Old Comment=5.1k New Comment=100k
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R18
+Change component parameters: Designator = "J3" ("J3"); Footprint = "CUI_UJ20-C-H-G-SMT-TR"; UniqueID = "\CHZBZPDI\BLPTRSLP" ("\CHZBZPDI\BLPTRSLP")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://eu.mouser.com/datasheet/2/1628/uj20_c_h_g_smt_tr-3511095.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "UJ20-C-H-G-MSMT-2-P16-TR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11" ("R11"); Footprint = "RESC2012X60N"; UniqueID = "\CHZBZPDI\YQXGYNVJ" ("\CHZBZPDI\YQXGYNVJ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw0805100kjnecc/vishay?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.arrow.com/en/products/crcw0805100kjnecc/vishay?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.5mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW0805100KJNECC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0805100KJNECC?qs=wd5RIQLrsJj4eBrPbx2Sww%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LIS3DHTR
+Add Component: Footprint Not Found CAPC2012X94N
+Add Component: Footprint Not Found CAPC2012X135N
+Add Component: Footprint Not Found LED-0603
+Added Component: Designator=J2(GCT_MEM2075-00-140-01-A)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MEM2075-00-140-01-A/Global+Connector+Technology/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/837/MEM2075-2887971.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Global Connector Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MEM2075-00-140-01-A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MEM2075-00-140-01-A/Global+Connector+Technology/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED THP Dialight 521-8559F)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.co.za/datasheet/2/109/C18455B-1843429.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "521-8559F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Add Component: Footprint Not Found 0402-TIGHT
+Added Component: Designator=S1(SW_TS02-66-43-BK-100-LCR-D)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TS02-66-43-BK-100-LCR-D/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/switches/tactile-switches/ts02-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TS02-66-43-BK-100-LCR-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TS02-66-43-BK-100-LCR-D/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TS02-66-43-BK-100-LCR-D/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S2(SW_TS02-66-43-BK-100-LCR-D)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/TS02-66-43-BK-100-LCR-D/CUI+Devices/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CUI_purchase_URL"; Value = "https://www.cuidevices.com/product/switches/tactile-switches/ts02-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TS02-66-43-BK-100-LCR-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/TS02-66-43-BK-100-LCR-D/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TS02-66-43-BK-100-LCR-D/CUI+Devices/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "SCL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "SDA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "BOOT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TP_Pad_TH_1.2P_0.6H)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.ch/datasheet/2/219/SG73P-1829847.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "EN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "KOA Speer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "660-SG73P2ATTD2003F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/KOA-Speer/SG73P2ATTD2003F?qs=0U9fANxrh6nXGXRg%2FonPow%3D%3D"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin AC1-1
+Add Pin To Net: Unknown Pin: Pin AC1-4
+Add Pin To Net: Unknown Pin: Pin AC1-5
+Add Pin To Net: Unknown Pin: Pin AC1-6
+Add Pin To Net: Unknown Pin: Pin AC1-7
+Add Pin To Net: Unknown Pin: Pin AC1-8
+Add Pin To Net: Unknown Pin: Pin AC1-10
+Add Pin To Net: Unknown Pin: Pin AC1-12
+Add Pin To Net: Unknown Pin: Pin AC1-14
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin D2-A
+Add Pin To Net: Unknown Pin: Pin D2-C
+Added Pin To Net: NetName=3.3V Pin=J2-P4
+Added Pin To Net: NetName=GND Pin=J2-P6
+Added Pin To Net: NetName=GND Pin=J2-SH1
+Added Pin To Net: NetName=GND Pin=J2-SH2
+Added Pin To Net: NetName=GND Pin=J2-SH3
+Added Pin To Net: NetName=GND Pin=J2-SH4
+Added Pin To Net: NetName=GND Pin=J3-A1
+Added Pin To Net: NetName=V_USB Pin=J3-A4
+Added Pin To Net: NetName=V_USB Pin=J3-A9
+Added Pin To Net: NetName=GND Pin=J3-A12
+Added Pin To Net: NetName=GND Pin=J3-B1
+Added Pin To Net: NetName=V_USB Pin=J3-B4
+Added Pin To Net: NetName=V_USB Pin=J3-B9
+Added Pin To Net: NetName=GND Pin=J3-B12
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Pin To Net: NetName=3.3V Pin=R3-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Added Pin To Net: NetName=3.3V Pin=R11-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R15-2
+Added Pin To Net: NetName=GND Pin=S1-4
+Added Pin To Net: NetName=GND Pin=S2-4
+Add Pin To Net: Unknown Pin: Pin TP1-TP
+Add Pin To Net: Unknown Pin: Pin TP2-TP
+Added Pin To Net: NetName=NetAC1_6 Pin=U1-15
+Added Pin To Net: NetName=NetAC1_4 Pin=U1-16
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Pin To Net: NetName=EN Pin=C2-2
+Added Pin To Net: NetName=EN Pin=S1-2
+Added Pin To Net: NetName=EN Pin=U1-8
+Added Net: Name=EN
+Added Pin To Net: NetName=IO9/BOOT Pin=S2-2
+Added Pin To Net: NetName=IO9/BOOT Pin=U1-23
+Added Net: Name=IO9/BOOT
+Added Pin To Net: NetName=IO12/USB_N Pin=J3-A7
+Added Pin To Net: NetName=IO12/USB_N Pin=J3-B7
+Added Pin To Net: NetName=IO12/USB_N Pin=U1-17
+Added Net: Name=IO12/USB_N
+Added Pin To Net: NetName=IO13/USB_P Pin=J3-A6
+Added Pin To Net: NetName=IO13/USB_P Pin=J3-B6
+Added Pin To Net: NetName=IO13/USB_P Pin=U1-18
+Added Net: Name=IO13/USB_P
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED2_3 Pin=LED2-3
+Added Net: Name=NetLED2_3
+Added Pin To Net: NetName=NetLED2_4 Pin=LED2-4
+Added Net: Name=NetLED2_4
+Added Net: Name=NetTP3_TP
+Added Net: Name=NetTP4_TP
+Added Pin To Net: NetName=SD_CD Pin=J2-P2
+Added Pin To Net: NetName=SD_CD Pin=J2-P9
+Added Pin To Net: NetName=SD_CD Pin=R11-1
+Added Pin To Net: NetName=SD_CD Pin=U1-29
+Added Net: Name=SD_CD
+Added Pin To Net: NetName=SD_CLK Pin=J2-P5
+Added Pin To Net: NetName=SD_CLK Pin=U1-25
+Added Net: Name=SD_CLK
+Added Pin To Net: NetName=SD_CMD Pin=J2-P3
+Added Pin To Net: NetName=SD_CMD Pin=U1-24
+Added Net: Name=SD_CMD
+Added Pin To Net: NetName=SD_D0 Pin=J2-P7
+Added Pin To Net: NetName=SD_D0 Pin=U1-26
+Added Net: Name=SD_D0
+Added Pin To Net: NetName=SD_D1 Pin=J2-P8
+Added Pin To Net: NetName=SD_D1 Pin=U1-27
+Added Net: Name=SD_D1
+Added Pin To Net: NetName=SD_D2 Pin=J2-P1
+Added Pin To Net: NetName=SD_D2 Pin=U1-28
+Added Net: Name=SD_D2
+Add Class Member: Failed to add class member : Component AC1 LIS3DHTR
+Add Class Member: Failed to add class member : Component C7 100nF
+Add Class Member: Failed to add class member : Component C8 2.2uF
+Add Class Member: Failed to add class member : Component D2 LED-RED_0603-KB
+Added Member To Class: ClassName=Microcontroller Member=Component J2 MEM2075-00-140-01-A
+Added Member To Class: ClassName=HMI Member=Component LED2 LED RGB THP SRAIGHT-LEG
+Add Class Member: Failed to add class member : Component R10 100k
+Add Class Member: Failed to add class member : Component R13 1M
+Add Class Member: Failed to add class member : Component R14 1M
+Add Class Member: Failed to add class member : Component R15 4.7k
+Added Member To Class: ClassName=Microcontroller Member=Component R18 5.1k
+Added Member To Class: ClassName=Microcontroller Member=Component S1 SPST-NO
+Added Member To Class: ClassName=Microcontroller Member=Component S2 SPST-NO
+Added Member To Class: ClassName=Microcontroller Member=Component TP1 SCL
+Added Member To Class: ClassName=Microcontroller Member=Component TP2 SDA
+Added Member To Class: ClassName=Microcontroller Member=Component TP3 BOOT
+Added Member To Class: ClassName=Microcontroller Member=Component TP4 EN

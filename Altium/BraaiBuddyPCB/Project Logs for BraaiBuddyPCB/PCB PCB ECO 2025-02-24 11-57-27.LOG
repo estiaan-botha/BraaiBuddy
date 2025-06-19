@@ -1,0 +1,31 @@
+Removed Member From Class: ClassName=HMI Member=R23
+Removed Member From Class: ClassName=HMI Member=R26
+Removed Member From Class: ClassName=HMI Member=R27
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=NetCONN1_1 New Net Name=TC-_CH1
+Change Net Name : Old Net Name=NetCONN1_2 New Net Name=TC+_CH1
+Change Net Name : Old Net Name=NetCONN2_1 New Net Name=TC-_CH2
+Change Net Name : Old Net Name=NetCONN2_2 New Net Name=TC+_CH2
+Change Net Name : Old Net Name=NetCONN3_1 New Net Name=TC-_CH3
+Change Net Name : Old Net Name=NetCONN3_2 New Net Name=TC+_CH3
+Change Net Name : Old Net Name=NetCONN4_1 New Net Name=TC-_CH4
+Change Net Name : Old Net Name=NetCONN4_2 New Net Name=TC+_CH4
+Change Net Name : Old Net Name=NetCONN5_1 New Net Name=TC-_CH5
+Change Net Name : Old Net Name=NetCONN5_2 New Net Name=TC+_CH5
+Added Member To Class: ClassName=HMI Member=Component R17 1k
+Added Member To Class: ClassName=HMI Member=Component R18 200k
+Added Member To Class: ClassName=HMI Member=Component R19 4.7K
+Added Member To Class: ClassName=HMI Member=Component R20 1k
+Added Member To Class: ClassName=Microcontroller Member=Component R21 2.2K
+Added Member To Class: ClassName=Microcontroller Member=Component R22 2.2K
+Added Member To Class: ClassName=Microcontroller Member=Component R23 100k
+Added Member To Class: ClassName=Microcontroller Member=Component R24 100k
+Added Member To Class: ClassName=Microcontroller Member=Component R25 100k

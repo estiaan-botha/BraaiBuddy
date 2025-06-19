@@ -1,0 +1,127 @@
+Removed Member From Class: ClassName=Accelerometer Interface Member=C1
+Removed Member From Class: ClassName=Microcontroller Member=C5
+Removed Member From Class: ClassName=Power Management Member=C7
+Removed Member From Class: ClassName=Accelerometer Interface Member=R5
+Removed Member From Class: ClassName=HMI Member=R13
+Removed Member From Class: ClassName=Power Management Member=R13
+Removed Member From Class: ClassName=HMI Member=R14
+Removed Member From Class: ClassName=HMI Member=R15
+Removed Member From Class: ClassName=Power Management Member=R15
+Removed Member From Class: ClassName=Power Management Member=S3
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Add Component: Footprint Not Found CAPC2012X94N
+Add Component: Footprint Not Found CAPC2012X135N
+Added Component: Designator=CONN1(AM-K PCB XE-1139-001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=CONN2(AM-K PCB XE-1139-001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=CONN3(AM-K PCB XE-1139-001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=CONN4(AM-K PCB XE-1139-001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=CONN5(AM-K PCB XE-1139-001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/1769/adafruit-industries?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/17311.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-1769"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LYM676Q2S126Z
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found RESC2012X50N
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R11-1
+Add Pin To Net: Unknown Pin: Pin R11-2
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R12-2
+Add Pin To Net: Unknown Pin: Pin R16-1
+Add Pin To Net: Unknown Pin: Pin R16-2
+Add Pin To Net: Unknown Pin: Pin TP1-TP
+Add Pin To Net: Unknown Pin: Pin TP2-TP
+Add Pin To Net: Unknown Pin: Pin TP3-TP
+Add Pin To Net: Unknown Pin: Pin TP4-TP
+Add Pin To Net: Unknown Pin: Pin TP5-TP
+Add Pin To Net: Unknown Pin: Pin TP6-TP
+Add Pin To Net: Unknown Pin: Pin TP7-TP
+Add Pin To Net: Unknown Pin: Pin TP8-TP
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Added Class: Name=Temperature Sensor Interface
+Added Member To Class: ClassName=Power Management Member=Component C2 2.2uF
+Added Member To Class: ClassName=Power Management Member=Component C4 2.2uF
+Added Member To Class: ClassName=Accelerometer Interface Member=Component C6 100nF
+Add Class Member: Failed to add class member : Component C8 100nF
+Add Class Member: Failed to add class member : Component C9 2.2uF
+Added Member To Class: ClassName=Microcontroller Member=Component J3 MEM2075-00-140-01-A
+Add Class Member: Failed to add class member : Component LED2 LED YELLOW 0805 SMD
+Added Member To Class: ClassName=Power Management Member=Component R2 4.7K
+Added Member To Class: ClassName=Power Management Member=Component R4 200k
+Added Member To Class: ClassName=Accelerometer Interface Member=Component R6 10k
+Add Class Member: Failed to add class member : Component R7 1k
+Add Class Member: Failed to add class member : Component R8 1k
+Add Class Member: Failed to add class member : Component R9 1k
+Add Class Member: Failed to add class member : Component R10 200k
+Add Class Member: Failed to add class member : Component R11 200k
+Add Class Member: Failed to add class member : Component R12 4.7K
+Add Class Member: Failed to add class member : Component R16 100k
+Added Member To Class: ClassName=Microcontroller Member=Component R17 100k
+Added Member To Class: ClassName=Power Management Member=Component S1 SWITCH SPDT 3A 120V
+Added Member To Class: ClassName=Microcontroller Member=Component S2 SPST-NO

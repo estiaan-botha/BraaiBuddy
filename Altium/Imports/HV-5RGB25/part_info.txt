@@ -1,0 +1,9 @@
+Manufacturer=Inolux
+PartNumber=HV-5RGB25
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2018-12-22 18:41:22
+Downloaded=2025-02-22 14:22:37
+3D=Y

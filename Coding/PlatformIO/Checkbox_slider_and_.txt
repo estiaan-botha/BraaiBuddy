@@ -1,0 +1,132 @@
+<h2>Auto mode configuration</h2>
+  <table id="timing_params">
+    <tr>
+      <td>Humidification mode:</td>
+      <td id="CO2_concentration_backup">
+        <select style="width: 110px" name="humidification_mode" id="humidification_mode">
+          <option value="humidify">Humidify</option>
+          <option value="dehumidify">Dehumidify</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>CO2 setpoint:</td>
+      <td>
+        <input style="width: 160px" oninput="update_co2_setpoint()" type="range" min="400" max="1500" value="400"
+          class="slider" id="co2_setpoint_range" />
+      </td>
+      <td id="co2_setpoint_value">OFF</td>
+    </tr>
+    <tr>
+      <td>Humidity setpoint:</td>
+      <td>
+        <input style="width: 110px" oninput="update_humidity_setpoint()" type="range" min="1" max="100" value="50"
+          class="slider" id="humidity_setpoint_range" />
+      </td>
+      <td id="humidity_setpoint_value">50 %</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS1_handled" /> Watering slot 1:</td>
+      <td id="TS1">
+        <input style="width: 105px" type="time" value="00:00" value="00:00" id="TS1_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS1_time"
+          name="TS1_time" />
+        <label id="TS1_range_lable" for="TS1_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS2_handled" /> Watering slot 2:</td>
+      <td id="TS2">
+        <input style="width: 105px" type="time" value="00:00" id="TS2_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS2_time"
+          name="TS2_time" />
+        <label id="TS2_range_lable" for="TS2_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS3_handled" /> Watering slot 3:</td>
+      <td id="TS3">
+        <input style="width: 105px" type="time" value="00:00" id="TS3_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS3_time"
+          name="TS3_time" />
+        <label id="TS3_range_lable" for="TS3_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS4_handled" /> Watering slot 4:</td>
+      <td id="TS4">
+        <input style="width: 105px" type="time" value="00:00" id="TS4_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS4_time"
+          name="TS4_time" />
+        <label id="TS4_range_lable" for="TS4_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS5_handled" /> Watering slot 5:</td>
+      <td id="TS5">
+        <input style="width: 105px" type="time" value="00:00" id="TS5_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS5_time"
+          name="TS5_time" />
+        <label id="TS5_range_lable" for="TS5_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS6_handled" /> Watering slot 6:</td>
+      <td id="TS6">
+        <input style="width: 105px" type="time" value="00:00" id="TS6_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS6_time"
+          name="TS6_time" />
+        <label id="TS6_range_lable" for="TS6_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS7_handled" /> Watering slot 7:</td>
+      <td id="TS7">
+        <input style="width: 105px" type="time" value="00:00" id="TS7_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS7_time"
+          name="TS7_time" />
+        <label id="TS7_range_lable" for="TS7_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS8_handled" /> Watering slot 8:</td>
+      <td id="TS8">
+        <input style="width: 105px" type="time" value="00:00" id="TS8_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS8_time"
+          name="TS8_time" />
+        <label id="TS8_range_lable" for="TS8_time">OFF</label>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="TS9_handled" /> Watering slot 9:</td>
+      <td id="TS9">
+        <input style="width: 105px" type="time" value="00:00" id="TS9_value" />
+      </td>
+      <td>
+        <input type="range" oninput="update_watering_time()" min="0" max="240" value="0" id="TS9_time"
+          name="TS9_time" />
+        <label id="TS9_range_lable" for="TS9_time">OFF</label>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <div id="apply_settings_div">
+    <button id="apply_settings" onclick="apply_settings()">Save</button>
+  </div>
+  <h3 style="text-align: left">v1.0</h3>

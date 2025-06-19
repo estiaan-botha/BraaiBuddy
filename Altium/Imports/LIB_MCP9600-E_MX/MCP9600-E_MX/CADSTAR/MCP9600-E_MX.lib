@@ -1,0 +1,16 @@
+.MCP9600-E_MX :1 ;Board Mount Temperature Sensors Thermocouple to I2C converter
+QFN65P500X500X100-21N-D
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="VIN+" 3="GND_2" 4="VIN-" 5="GND_3" 6="GND_4" 7="GND_5" 8="VDD" 9="GND_6" 10="GND_7" 11="ALERT1" 12="ALERT2" 13="GND_8" 14="ALERT3" 15="ALERT4" 16="ADDR" 17="GND_9" 18="GND_10" 19="SCL" 20="SDA" 21="EP"
+*MXP 21
+*DFN MCP9600-E_MX
+~!Mouser Part Number (579-MCP9600-E/MX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP9600-E-MX?qs=ZEMkBHnybREkP7PCRsOOMQ%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP9600-E/MX)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS41/DSANUWW0026539.pdf)
+~!Height (1mm)
+~!3D_Model (MCP9600-E_MX)
+MCP9600-E_MX
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

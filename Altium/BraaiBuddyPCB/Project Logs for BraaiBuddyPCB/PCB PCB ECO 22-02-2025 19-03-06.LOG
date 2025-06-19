@@ -1,0 +1,128 @@
+Removed Pin From Net: NetName=NetLED2_1 Pin=LED2-1
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X50N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Footprint: Footprint Not Found RESC2012X70N
+Change Component Comment : Designator=D1 Old Comment=SCHOTTKY New Comment=DIODE SCHOTTKY 1A 23V 620mV SMD
+Change Component Designator: OldDesignator=C1 NewDesignator=C6
+Change Component Designator: OldDesignator=C2 NewDesignator=C7
+Change Component Designator: OldDesignator=C4 NewDesignator=C1
+Change Component Designator: OldDesignator=C5 NewDesignator=C2
+Change Component Designator: OldDesignator=C6 NewDesignator=C4
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C5
+Change Component Designator: OldDesignator=IC3 NewDesignator=IC1
+Change Component Designator: OldDesignator=J2 NewDesignator=J3
+Change Component Designator: OldDesignator=J3 NewDesignator=J2
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED3
+Change Component Designator: OldDesignator=R1 NewDesignator=R6
+Change Component Designator: OldDesignator=R2 NewDesignator=R13
+Change Component Designator: OldDesignator=R3 NewDesignator=R14
+Change Component Designator: OldDesignator=R4 NewDesignator=R15
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R1
+Change Component Designator: OldDesignator=R8 NewDesignator=R2
+Change Component Designator: OldDesignator=R9 NewDesignator=R3
+Change Component Designator: OldDesignator=R11 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=S1 NewDesignator=S2
+Change Component Designator: OldDesignator=S2 NewDesignator=S3
+Change Component Designator: OldDesignator=S3 NewDesignator=S1
+Change component parameters: Designator = "S3" ("S3"); Footprint = "SW_500ASSP1M6QE"; UniqueID = "\RRTRRDMI\TOWZZYXC" ("\RRTRRDMI\TOWZZYXC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "500ASSP1M6QE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=AC1(LIS3DHTR)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/lis3dhtr/stmicroelectronics?utm_currency=USD&region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.st.com/content/ccc/resource/technical/document/datasheet/3c/ae/50/85/d6/b1/46/fe/CD00274221.pdf/files/CD00274221.pdf/jcr:content/translations/en.CD00274221.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-LIS3DHTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LIS3DHTR?qs=6la6oa3D8xzhXYax3cEo4w%3D%3D"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found CAPC2012X94N
+Add Component: Footprint Not Found CAPC2012X135N
+Add Component: Footprint Not Found LYM676Q2S126Z
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X60N
+Add Component: Footprint Not Found RESC2012X50N
+Add Component: Footprint Not Found RESC2012X50N
+Added Pin To Net: NetName=3.3V Pin=AC1-1
+Added Pin To Net: NetName=IO7/SCL Pin=AC1-4
+Added Pin To Net: NetName=GND Pin=AC1-5
+Added Pin To Net: NetName=IO6/SDA Pin=AC1-6
+Added Pin To Net: NetName=GND Pin=AC1-7
+Added Pin To Net: NetName=NetAC1_8 Pin=AC1-8
+Added Pin To Net: NetName=GND Pin=AC1-10
+Added Pin To Net: NetName=GND Pin=AC1-12
+Added Pin To Net: NetName=3.3V Pin=AC1-14
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R11-1
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R12-2
+Add Pin To Net: Unknown Pin: Pin R16-1
+Add Pin To Net: Unknown Pin: Pin R16-2
+Add Pin To Net: Unknown Pin: Pin TP1-TP
+Add Pin To Net: Unknown Pin: Pin TP2-TP
+Add Pin To Net: Unknown Pin: Pin TP3-TP
+Add Pin To Net: Unknown Pin: Pin TP4-TP
+Add Pin To Net: Unknown Pin: Pin TP5-TP
+Add Pin To Net: Unknown Pin: Pin TP6-TP
+Add Pin To Net: Unknown Pin: Pin TP7-TP
+Add Pin To Net: Unknown Pin: Pin TP8-TP
+Add Pin To Net: Unknown Pin: Pin U1-49.1
+Add Pin To Net: Unknown Pin: Pin U1-49.2
+Add Pin To Net: Unknown Pin: Pin U1-49.3
+Add Pin To Net: Unknown Pin: Pin U1-49.4
+Add Pin To Net: Unknown Pin: Pin U1-49.5
+Add Pin To Net: Unknown Pin: Pin U1-49.6
+Add Pin To Net: Unknown Pin: Pin U1-49.7
+Add Pin To Net: Unknown Pin: Pin U1-49.8
+Add Pin To Net: Unknown Pin: Pin U1-49.9
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetIC3_1 New Net Name=NetIC1_1
+Change Net Name : Old Net Name=NetIC3_5 New Net Name=NetIC1_5
+Change Net Name : Old Net Name=NetJ3_A5 New Net Name=NetJ2_A5
+Change Net Name : Old Net Name=NetJ3_B5 New Net Name=NetJ2_B5
+Change Net Name : Old Net Name=NetR2_1 New Net Name=NetR13_1
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetR14_2
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR15_1
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=Default
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=Default
+Change Net Color : Old Net Color=RGB(133, 32, 12) New Net Color=Default
+Added Pin To Net: NetName=NetLED3_3 Pin=LED3-3
+Added Net: Name=NetLED3_3
+Added Pin To Net: NetName=NetLED3_4 Pin=LED3-4
+Added Net: Name=NetLED3_4
+Added Net: Name=NetR7_2
+Added Net: Name=NetR8_2
+Added Net: Name=NetR9_2
+Added Net: Name=NetR10_1
+Added Member To Class: ClassName=Accelerometer Interface Member=Component AC1 LIS3DHTR
+Add Class Member: Failed to add class member : Component C8 100nF
+Added Member To Class: ClassName=Microcontroller Member=Component C10 10uF
+Added Member To Class: ClassName=HMI Member=Component LED3 LED RGB THP SRAIGHT-LEG
+Add Class Member: Failed to add class member : Component R7 1k
+Add Class Member: Failed to add class member : Component R8 1k
+Add Class Member: Failed to add class member : Component R9 1k
+Add Class Member: Failed to add class member : Component R10 200k
+Add Class Member: Failed to add class member : Component R11 200k
+Add Class Member: Failed to add class member : Component R12 4.7K
+Add Class Member: Failed to add class member : Component R16 100k
