@@ -1,0 +1,22 @@
+# Altium auto-generated files
+**/History/
+**/__Previews/
+**/Project Logs for */
+*.PrjPcbStructure
+*.LOG
+Status Report.Txt
+
+# Third-party CAD models (SamacSys/vendor licences do not allow redistribution)
+Altium/Imports/
+
+# PlatformIO build output
+.pio/
+.vscode/
+
+# Leftover vendored Arduino libraries (pulled in via lib_deps instead)
+Coding/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
